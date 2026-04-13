@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>股市情绪监控 | Stock Sentiment Monitor</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #1a73e8;
+            --success: #4CAF50;
+            --warning: #FFC107;
+            --danger: #F44336;
+            --bg: #f5f7fa;
+            --card-bg: #ffffff;
+            --text: #333;
+            --text-light: #666;
+            --border: #e0e0e0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* 头部 */
+        .header {
+            background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .header .update-time {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        /* 指标卡片 */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .metric-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .metric-card .label {
+            font-size: 13px;
+            color: var(--text-light);
+            margin-bottom: 8px;
+        }
+        
+        .metric-card .value {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        .metric-card .sub {
+            font-size: 13px;
+            color: var(--text-light);
+            margin-top: 5px;
+        }
+        
+        .vix-card {
+            border-left: 4px solid #8BC34A;
+        }
+        
+        .vix-card .value {
+            color: #8BC34A;
+        }
+        
+        .risk-low { color: var(--success); }
+        .risk-medium { color: var(--warning); }
+        .risk-high { color: var(--danger); }
+        
+        /* 图表区 */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .chart-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .chart {
+            height: 300px;
+        }
+        
+        /* 新闻区 */
+        .news-section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .news-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .news-tab {
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: 14px;
+            color: var(--text-light);
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+        
+        .news-tab:hover {
+            background: #f0f0f0;
+        }
+        
+        .news-tab.active {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .news-content {
+            display: none;
+        }
+        
+        .news-content.active {
+            display: block;
+        }
+        
+        .news-item {
+            padding: 15px;
+            border-bottom: 1px solid var(--border);
+            transition: background 0.2s;
+        }
+        
+        .news-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        
+        .news-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 12px;
+            color: var(--text-light);
+        }
+        
+        .sentiment-badge {
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+        }
+        
+        .sentiment-positive {
+            background: rgba(76, 175, 80, 0.15);
+            color: var(--success);
+        }
+        
+        .sentiment-neutral {
+            background: rgba(255, 193, 7, 0.15);
+            color: #f57c00;
+        }
+        
+        .sentiment-negative {
+            background: rgba(244, 67, 54, 0.15);
+            color: var(--danger);
+        }
+        
+        .news-title {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 15px;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .news-title:hover {
+            color: var(--primary);
+        }
+        
+        .news-keywords {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        
+        .kw {
+            background: #e8f0fe;
+            color: var(--primary);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+        }
+        
+        .geo-kw {
+            background: #fff3e0;
+            color: #e65100;
+            font-weight: 500;
+        }
+        
+        .geo-badge {
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            padding: 2px 10px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .news-item.geopolitical {
+            background: linear-gradient(to right, #fff8f0, transparent);
+            border-left: 3px solid #ff6b35;
+        }
+        
+        .news-item.geopolitical:hover {
+            background: linear-gradient(to right, #fff0e6, transparent);
+        }
+        
+        /* 板块分析 */
+        .sector-section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .sector-item {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border-left: 3px solid #e0e0e0;
+            transition: all 0.2s;
+        }
+        
+        .sector-item.hot {
+            background: linear-gradient(to right, #fff3f3, transparent);
+            border-left-color: #F44336;
+        }
+        
+        .sector-item.warm {
+            background: linear-gradient(to right, #fff8f0, transparent);
+            border-left-color: #FF9800;
+        }
+        
+        .sector-item.normal {
+            background: #fafafa;
+            border-left-color: #e0e0e0;
+        }
+        
+        .sector-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .sector-name {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .sector-change {
+            font-size: 12px;
+            padding: 3px 10px;
+            border-radius: 12px;
+            background: #f0f0f0;
+        }
+        
+        .sector-item.hot .sector-change {
+            background: #ffebee;
+            color: #c62828;
+        }
+        
+        .sector-item.warm .sector-change {
+            background: #fff3e0;
+            color: #e65100;
+        }
+        
+        .sector-stats {
+            display: flex;
+            gap: 15px;
+            font-size: 13px;
+            color: var(--text-light);
+            margin-bottom: 10px;
+        }
+        
+        .sector-stats .stat {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .sector-stats .positive {
+            color: var(--success);
+        }
+        
+        .sector-stats .negative {
+            color: var(--danger);
+        }
+        
+        .sector-bar {
+            height: 6px;
+            background: #f0f0f0;
+            border-radius: 3px;
+            display: flex;
+            overflow: hidden;
+        }
+        
+        .bar-positive {
+            background: var(--success);
+            height: 100%;
+        }
+        
+        .bar-negative {
+            background: var(--danger);
+            height: 100%;
+        }
+        
+        /* 关键新闻点 */
+        .key-points {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .key-point {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 0;
+            border-bottom: 1px dashed var(--border);
+        }
+        
+        .key-point:last-child {
+            border-bottom: none;
+        }
+        
+        .key-point .point-icon {
+            font-size: 18px;
+        }
+        
+        .key-point .point-text {
+            flex: 1;
+            font-size: 14px;
+        }
+        
+        .key-point .point-source {
+            font-size: 12px;
+            color: var(--text-light);
+        }
+        
+        /* 页脚 */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-light);
+            font-size: 12px;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .metric-card .value {
+                font-size: 24px;
+            }
+        }
+        
+        /* 预测卡片 */
+        .prediction-banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .prediction-item {
+            text-align: center;
+        }
+        
+        .prediction-item .label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        
+        .prediction-item .value {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <h1>📊 股市情绪监控面板</h1>
+            <p class="update-time">数据更新时间: 2026年04月13日 22:45 | 每2小时自动更新</p>
+        </header>
+        
+        <!-- 核心指标 -->
+        <div class="metrics-grid">
+            <div class="metric-card vix-card">
+                <div class="label">VIX恐慌指数</div>
+                <div class="value">19.23</div>
+                <div class="sub" style="color: #8BC34A">
+                    情绪等级: 较低 | 市场情绪较为乐观
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="label">综合预测</div>
+                <div class="value">偏多</div>
+                <div class="sub">风险等级: <span class="risk-low">低</span></div>
+            </div>
+            <div class="metric-card">
+                <div class="label">积极新闻</div>
+                <div class="value" style="color: var(--success)">8</div>
+                <div class="sub">占比 14.0%</div>
+            </div>
+            <div class="metric-card">
+                <div class="label">消极新闻</div>
+                <div class="value" style="color: var(--danger)">5</div>
+                <div class="sub">占比 8.8%</div>
+            </div>
+        </div>
+        
+        <!-- 预测横幅 -->
+        <div class="prediction-banner">
+            <div class="prediction-item">
+                <div class="label">VIX信号</div>
+                <div class="value">维持仓位</div>
+            </div>
+            <div class="prediction-item">
+                <div class="label">情绪信号</div>
+                <div class="value">观望等待</div>
+            </div>
+            <div class="prediction-item">
+                <div class="label">新闻数量</div>
+                <div class="value">57</div>
+            </div>
+        </div>
+        
+        <!-- 图表区 -->
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div id="vixChart" class="chart"></div>
+            </div>
+            <div class="chart-card">
+                <div id="sentimentChart" class="chart"></div>
+            </div>
+        </div>
+        
+        <!-- 板块分析 -->
+        <div class="sector-section">
+            <h3 style="margin-bottom: 15px;">🎯 板块智能分析</h3>
+            <p style="font-size: 12px; color: var(--text-light); margin-bottom: 15px;">基于新闻数量和情绪变化分析各板块热度</p>
+            
+                <div class="sector-item warm">
+                    <div class="sector-header">
+                        <span class="sector-name">🔥 科技</span>
+                        <span class="sector-change">📊 明显变化</span>
+                    </div>
+                    <div class="sector-stats">
+                        <span class="stat">新闻: <strong>8</strong></span>
+                        <span class="stat positive">📈 2</span>
+                        <span class="stat negative">📉 0</span>
+                        <span class="stat">净情绪: <strong style="color:#4CAF50">+25.0%</strong></span>
+                    </div>
+                    <div class="sector-bar">
+                        <div class="bar-positive" style="width:25.0%"></div>
+                        <div class="bar-negative" style="width:0.0%"></div>
+                    </div>
+                </div>
+            
+
+                <div class="sector-item normal">
+                    <div class="sector-header">
+                        <span class="sector-name">🔥 农业</span>
+                        <span class="sector-change">➡️ 平稳</span>
+                    </div>
+                    <div class="sector-stats">
+                        <span class="stat">新闻: <strong>2</strong></span>
+                        <span class="stat positive">📈 1</span>
+                        <span class="stat negative">📉 0</span>
+                        <span class="stat">净情绪: <strong style="color:#4CAF50">+50.0%</strong></span>
+                    </div>
+                    <div class="sector-bar">
+                        <div class="bar-positive" style="width:50.0%"></div>
+                        <div class="bar-negative" style="width:0.0%"></div>
+                    </div>
+                </div>
+            
+
+                <div class="sector-item normal">
+                    <div class="sector-header">
+                        <span class="sector-name">❄️ 军工</span>
+                        <span class="sector-change">➡️ 平稳</span>
+                    </div>
+                    <div class="sector-stats">
+                        <span class="stat">新闻: <strong>2</strong></span>
+                        <span class="stat positive">📈 0</span>
+                        <span class="stat negative">📉 1</span>
+                        <span class="stat">净情绪: <strong style="color:#F44336">-50.0%</strong></span>
+                    </div>
+                    <div class="sector-bar">
+                        <div class="bar-positive" style="width:0.0%"></div>
+                        <div class="bar-negative" style="width:50.0%"></div>
+                    </div>
+                </div>
+            
+
+                <div class="sector-item normal">
+                    <div class="sector-header">
+                        <span class="sector-name">⚖️ 综合</span>
+                        <span class="sector-change">➡️ 平稳</span>
+                    </div>
+                    <div class="sector-stats">
+                        <span class="stat">新闻: <strong>37</strong></span>
+                        <span class="stat positive">📈 4</span>
+                        <span class="stat negative">📉 3</span>
+                        <span class="stat">净情绪: <strong style="color:#FFC107">+2.7%</strong></span>
+                    </div>
+                    <div class="sector-bar">
+                        <div class="bar-positive" style="width:10.8%"></div>
+                        <div class="bar-negative" style="width:8.1%"></div>
+                    </div>
+                </div>
+            
+
+                <div class="sector-item warm">
+                    <div class="sector-header">
+                        <span class="sector-name">🔥 有色</span>
+                        <span class="sector-change">📊 明显变化</span>
+                    </div>
+                    <div class="sector-stats">
+                        <span class="stat">新闻: <strong>3</strong></span>
+                        <span class="stat positive">📈 1</span>
+                        <span class="stat negative">📉 0</span>
+                        <span class="stat">净情绪: <strong style="color:#4CAF50">+33.3%</strong></span>
+                    </div>
+                    <div class="sector-bar">
+                        <div class="bar-positive" style="width:33.3%"></div>
+                        <div class="bar-negative" style="width:0.0%"></div>
+                    </div>
+                </div>
+            
+
+                <div class="sector-item normal">
+                    <div class="sector-header">
+                        <span class="sector-name">❄️ 汽车</span>
+                        <span class="sector-change">➡️ 平稳</span>
+                    </div>
+                    <div class="sector-stats">
+                        <span class="stat">新闻: <strong>1</strong></span>
+                        <span class="stat positive">📈 0</span>
+                        <span class="stat negative">📉 1</span>
+                        <span class="stat">净情绪: <strong style="color:#F44336">-100.0%</strong></span>
+                    </div>
+                    <div class="sector-bar">
+                        <div class="bar-positive" style="width:0.0%"></div>
+                        <div class="bar-negative" style="width:100.0%"></div>
+                    </div>
+                </div>
+            
+
+                <div class="sector-item normal">
+                    <div class="sector-header">
+                        <span class="sector-name">🔥 能源</span>
+                        <span class="sector-change">➡️ 平稳</span>
+                    </div>
+                    <div class="sector-stats">
+                        <span class="stat">新闻: <strong>1</strong></span>
+                        <span class="stat positive">📈 1</span>
+                        <span class="stat negative">📉 0</span>
+                        <span class="stat">净情绪: <strong style="color:#4CAF50">+100.0%</strong></span>
+                    </div>
+                    <div class="sector-bar">
+                        <div class="bar-positive" style="width:100.0%"></div>
+                        <div class="bar-negative" style="width:0.0%"></div>
+                    </div>
+                </div>
+            
+
+                <div class="sector-item normal">
+                    <div class="sector-header">
+                        <span class="sector-name">⚖️ 金融</span>
+                        <span class="sector-change">➡️ 平稳</span>
+                    </div>
+                    <div class="sector-stats">
+                        <span class="stat">新闻: <strong>8</strong></span>
+                        <span class="stat positive">📈 1</span>
+                        <span class="stat negative">📉 1</span>
+                        <span class="stat">净情绪: <strong style="color:#FFC107">+0.0%</strong></span>
+                    </div>
+                    <div class="sector-bar">
+                        <div class="bar-positive" style="width:12.5%"></div>
+                        <div class="bar-negative" style="width:12.5%"></div>
+                    </div>
+                </div>
+            
+        </div>
+        
+        <!-- 关键新闻点 -->
+        <div class="key-points">
+            <h3 style="margin-bottom: 15px;">🔥 重要资讯速递</h3>
+            
+            <div class="key-point 利好">
+                <span class="point-icon">✅</span>
+                <span class="point-text">畜牧养殖板块掀涨停潮，华宝基金农牧渔ETF（159275）上探1.47%！机构：上行周期在望</span>
+                <span class="point-source">来源:新浪财经</span>
+            </div>
+        
+            <div class="key-point 利好">
+                <span class="point-icon">✅</span>
+                <span class="point-text">继续相信“光”！中际旭创新高不断，创业板人工智能月内涨超13%跑赢同类！高“光”159363斩获四连</span>
+                <span class="point-source">来源:新浪财经</span>
+            </div>
+        
+            <div class="key-point 利好">
+                <span class="point-icon">✅</span>
+                <span class="point-text">二手房成交占比迅速攀升 贝壳将发挥更多价值？</span>
+                <span class="point-source">来源:新浪财经</span>
+            </div>
+        
+            <div class="key-point 利空">
+                <span class="point-icon">⚠️</span>
+                <span class="point-text">华南城将被清盘！第三大股东腾讯23亿投资打水漂</span>
+                <span class="point-source">来源:新浪财经</span>
+            </div>
+        
+            <div class="key-point 利空">
+                <span class="point-icon">⚠️</span>
+                <span class="point-text">港股收评：恒指跌0.9% 科指跌0.79% 科网股低迷 航空股普跌 汽车股逆势走高</span>
+                <span class="point-source">来源:新浪财经</span>
+            </div>
+        
+            <div class="key-point 利空">
+                <span class="point-icon">⚠️</span>
+                <span class="point-text">业绩承压表象背后 新诺威的深层次风险已不容忽视</span>
+                <span class="point-source">来源:新浪财经</span>
+            </div>
+        
+        </div>
+        
+        <!-- 新闻列表 -->
+        <div class="news-section">
+            <div class="news-tabs">
+                <button class="news-tab active" onclick="showTab('astock')">A股 (13)</button>
+                <button class="news-tab" onclick="showTab('usstock')">美股 (1)</button>
+                <button class="news-tab" onclick="showTab('hkstock')">港股 (3)</button>
+                <button class="news-tab" onclick="showTab('other')">综合 (41)</button>
+            </div>
+            
+            <div id="astock" class="news-content active">
+                
+                <div class="news-item sentiment-positive ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-positive">📈</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/money/fund/etf/2026-04-13/doc-inhukeew2323228.shtml" class="news-title" target="_blank">畜牧养殖板块掀涨停潮，华宝基金农牧渔ETF（159275）上探1.47%！机构：上行周期在望</a>
+                    <div class="news-keywords">
+                        <span class="kw">涨停</span> <span class="kw">上行</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/money/fund/etf/2026-04-13/doc-inhukeew2312602.shtml" class="news-title" target="_blank">我国火箭进入密集发射期！商业航天行情即将回归？华宝基金军工ETF放量五连阳！长十乙可回收火箭月底首飞</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-positive ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-positive">📈</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/money/fund/etf/2026-04-13/doc-inhukeex9675521.shtml" class="news-title" target="_blank">继续相信“光”！中际旭创新高不断，创业板人工智能月内涨超13%跑赢同类！高“光”159363斩获四连阳！</a>
+                    <div class="news-keywords">
+                        <span class="kw">跑赢</span> <span class="kw">创新高</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/money/fund/etf/2026-04-13/doc-inhukeeu5534708.shtml" class="news-title" target="_blank">宁德时代创历史新高！华宝基金双创50ETF（588330）强势5连阳，刷新上市高点！机构：真正主线或在科技！</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.cn/zt_d/subject-1776040998" class="news-title" target="_blank">三大股指涨跌不一 算力硬件概念活跃</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-positive ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-positive">📈</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/marketresearch/2026-04-13/doc-inhukknu2251365.shtml" class="news-title" target="_blank">4月13日增减持汇总：良品铺子等7股拟减持，当日无A股增持（表）</a>
+                    <div class="news-keywords">
+                        <span class="kw">增持</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral geopolitical">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        <span class="geo-badge">🌍 地缘政治</span>
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/marketresearch/2026-04-13/doc-inhuixwz9730307.shtml" class="news-title" target="_blank">强势翻红，A股对中东冲突“脱敏”？机构研判来了</a>
+                    <div class="news-keywords">
+                        <span class="kw geo-kw">冲突</span> <span class="kw geo-kw">中东</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/roll/2026-04-13/doc-inhuhscn6004034.shtml" class="news-title" target="_blank">A股景气度投资或回归主线</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral geopolitical">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        <span class="geo-badge">🌍 地缘政治</span>
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/wm/2026-04-13/doc-inhuiatm9859810.shtml" class="news-title" target="_blank">十大券商策略：当下真正主线并不在中东，而在科技</a>
+                    <div class="news-keywords">
+                        <span class="kw geo-kw">中东</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral geopolitical">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        <span class="geo-badge">🌍 地缘政治</span>
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/hkstock/hkyx/2026-04-13/doc-inhuipif9830350.shtml" class="news-title" target="_blank">港交所证券产品主管Brian：全球资本从美国回流中国资产 散户参与度愈发重要 AI半导体仍是驱动力</a>
+                    <div class="news-keywords">
+                        <span class="kw geo-kw">美国</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/jjxw/2026-04-13/doc-inhuiatm9844124.shtml" class="news-title" target="_blank">私募基金产品一季度成绩单出炉：近六成实现正收益</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">华尔街见闻</span>
+                        <span class="news-time">2026-04-13 22:30</span>
+                    </div>
+                    <a href="https://wallstreetcn.com/articles/3769860" class="news-title" target="_blank">韩国又一位半导体亿万富豪诞生，这次是做激光的</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-negative ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-negative">📉</span>
+                        
+                        <span class="news-source">华尔街见闻</span>
+                        <span class="news-time">2026-04-13 22:30</span>
+                    </div>
+                    <a href="https://wallstreetcn.com/articles/3769857" class="news-title" target="_blank">两家银行同日“吃罚单”，“无证上岗”、产品准入未实质调查、反洗钱“缺位”……</a>
+                    <div class="news-keywords">
+                        <span class="kw">调查</span>
+                    </div>
+                </div>
+            
+            </div>
+            <div id="usstock" class="news-content">
+                
+                <div class="news-item sentiment-positive geopolitical">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-positive">📈</span>
+                        <span class="geo-badge">🌍 地缘政治</span>
+                        <span class="news-source">华尔街见闻</span>
+                        <span class="news-time">2026-04-13 21:49</span>
+                    </div>
+                    <a href="https://wallstreetcn.com/articles/3769784" class="news-title" target="_blank">美国“封锁”逼近，美股指低开，石油股上涨，布油破百，黄金回调，铝价四年新高</a>
+                    <div class="news-keywords">
+                        <span class="kw geo-kw">美国</span><span class="kw">上涨</span>
+                    </div>
+                </div>
+            
+            </div>
+            <div id="hkstock" class="news-content">
+                
+                <div class="news-item sentiment-negative ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-negative">📉</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="http://finance.sina.com.cn/research/dichan007/yw/2025-08-12/doc-infktfvz8814540.shtml" class="news-title" target="_blank">华南城将被清盘！第三大股东腾讯23亿投资打水漂</a>
+                    <div class="news-keywords">
+                        <span class="kw">清盘</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-negative ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-negative">📉</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-04-13/doc-inhuixwy2349705.shtml" class="news-title" target="_blank">港股收评：恒指跌0.9% 科指跌0.79% 科网股低迷 航空股普跌 汽车股逆势走高</a>
+                    <div class="news-keywords">
+                        <span class="kw">低迷</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral geopolitical">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        <span class="geo-badge">🌍 地缘政治</span>
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/hkstock/hkyx/2026-04-13/doc-inhuipif9830350.shtml" class="news-title" target="_blank">港交所证券产品主管Brian：全球资本从美国回流中国资产 散户参与度愈发重要 AI半导体仍是驱动力</a>
+                    <div class="news-keywords">
+                        <span class="kw geo-kw">美国</span>
+                    </div>
+                </div>
+            
+            </div>
+            <div id="other" class="news-content">
+                
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/money/fund/etf/2026-04-13/doc-inhukknv9642402.shtml" class="news-title" target="_blank">ETF日报：畜牧养殖板块展现出较强的向上动能 关注养殖ETF国泰</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="http://finance.sina.com.cn/research/dichan007/yw/2025-06-10/doc-inezqwaa3375791.shtml" class="news-title" target="_blank">民营房企重返土拍市场 谁在加大力度拿地？</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-positive ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-positive">📈</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/gsjd/2025-05-21/doc-inexhwwe0494219.shtml" class="news-title" target="_blank">二手房成交占比迅速攀升 贝壳将发挥更多价值？</a>
+                    <div class="news-keywords">
+                        <span class="kw">攀升</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-positive ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-positive">📈</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="http://finance.sina.com.cn/research/dichan007/yw/2025-04-02/doc-inertrws5580828.shtml" class="news-title" target="_blank">万科迎来改革发展转机：去年完成超18万套房子交付，今年一季度公开债已兑付</a>
+                    <div class="news-keywords">
+                        <span class="kw">改革</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="http://finance.sina.com.cn/research/baijiu007/yw/2025-04-01/doc-inerrnxs6345481.shtml" class="news-title" target="_blank">中国金茂进入业绩兑现期？持续投资迎来收获 开发业务毛利率大幅提升</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/observe/2025-10-31/doc-infvutkq3271608.shtml" class="news-title" target="_blank">舍得酒业：产品创新拓展增量市场 电商、大众酒、年轻化成为前三季度最大经营亮点</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="http://finance.sina.com.cn/research/baijiu007/yw/2025-08-18/doc-infmkyuc3513942.shtml" class="news-title" target="_blank">煌上煌再度进行外延式并购：自身收入连续萎缩产能利用率低至23% 并购能否帮助公司脱困</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-positive ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-positive">📈</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="http://finance.sina.com.cn/research/baijiu007/yw/2025-08-15/doc-infmacic4386628.shtml" class="news-title" target="_blank">卫龙美味营收、净利保持双位数增长 第二增长曲线蔬菜制品收入达到21.09亿元</a>
+                    <div class="news-keywords">
+                        <span class="kw">增长</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="http://finance.sina.com.cn/research/baijiu007/yw/2025-08-12/doc-infksvhi3488630.shtml" class="news-title" target="_blank">神农集团按下扩张暂停键 反内卷是否意味着行业拐点？</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="http://finance.sina.com.cn/research/baijiu007/yw/2025-07-28/doc-infhywqz5801770.shtml" class="news-title" target="_blank">广农糖业募资必要性存疑：产能利用率仅为21.66% 巨额负债压力下困境待解</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-positive ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-positive">📈</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/roll/2026-04-13/doc-inhukkny4697580.shtml" class="news-title" target="_blank">【一图看懂】AI算力涨价潮起，相关产业链迎机遇</a>
+                    <div class="news-keywords">
+                        <span class="kw">机遇</span>
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/jjxw/2026-04-13/doc-inhukkns5429315.shtml" class="news-title" target="_blank">中国银河证券：聘任张瑞兵兼任公司合规总监</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/jjxw/2026-04-13/doc-inhuihzi9857862.shtml" class="news-title" target="_blank">不到一年兴证资管董事长再调整，华福证券自营“老将”王焕舟接棒</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/newstock/2026-04-13/doc-inhukkns5445258.shtml" class="news-title" target="_blank">森合高科，IPO遭暂缓审议！</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+
+                <div class="news-item sentiment-neutral ">
+                    <div class="news-header">
+                        <span class="sentiment-badge sentiment-neutral">➖</span>
+                        
+                        <span class="news-source">新浪财经</span>
+                        <span class="news-time"></span>
+                    </div>
+                    <a href="https://finance.sina.com.cn/stock/newstock/2026-04-13/doc-inhukkns5445724.shtml" class="news-title" target="_blank">九岭锂业冲A折戟！谁还卡在IPO“问询关”</a>
+                    <div class="news-keywords">
+                        
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>📈 股市情绪监控系统 | 数据来源: 新浪财经、东方财富、雪球、Yahoo Finance</p>
+            <p>⚠️ 本页面仅供参考，不构成投资建议</p>
+            <p>🔄 自动更新于 2026年04月13日 22:45</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Tab切换
+        function showTab(tabId) {
+            document.querySelectorAll('.news-tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.news-content').forEach(content => content.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+        
+        // ECharts图表
+        document.addEventListener('DOMContentLoaded', function() {
+            // VIX走势图表
+            var vixChart = echarts.init(document.getElementById('vixChart'));
+            vixChart.setOption({"title": {"text": "VIX恐慌指数走势（近14天）", "left": "center", "textStyle": {"fontSize": 14}}, "tooltip": {"trigger": "axis", "formatter": "{b}<br/>VIX: {c}"}, "grid": {"left": "10%", "right": "10%", "bottom": "20%", "top": "20%"}, "xAxis": {"type": "category", "data": ["2026-03-31", "2026-04-01", "2026-04-02", "2026-04-03", "2026-04-04", "2026-04-05", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-11", "2026-04-12", "2026-04-13"], "axisLabel": {"rotate": 30, "fontSize": 11, "interval": 0}}, "yAxis": {"type": "value", "scale": true, "name": "VIX"}, "series": [{"type": "line", "data": [21.5, 22.3, 20.8, 19.5, 18.2, 17.8, 16.5, 17.2, 18.5, 19.8, 20.5, 19.6, 19.23, 19.23], "smooth": true, "areaStyle": {"color": {"type": "linear", "x": 0, "y": 0, "x2": 0, "y2": 1, "colorStops": [{"offset": 0, "color": "rgba(238,102,102,0.5)"}, {"offset": 1, "color": "rgba(238,102,102,0.05)"}]}}, "lineStyle": {"color": "#ee6666", "width": 2}, "itemStyle": {"color": "#ee6666"}, "markLine": {"silent": true, "data": [{"yAxis": 20, "name": "恐慌阈值", "lineStyle": {"color": "#FFC107"}}, {"yAxis": 30, "name": "极度恐慌", "lineStyle": {"color": "#F44336"}}]}}]});
+            
+            // 情感分布图表
+            var sentimentChart = echarts.init(document.getElementById('sentimentChart'));
+            sentimentChart.setOption({"title": {"text": "市场情绪分布", "left": "center", "textStyle": {"fontSize": 14}}, "tooltip": {"trigger": "item", "formatter": "{b}: {c} ({d}%)"}, "series": [{"type": "pie", "radius": ["40%", "70%"], "avoidLabelOverlap": false, "itemStyle": {"borderRadius": 5, "borderColor": "#fff", "borderWidth": 2}, "label": {"show": true, "formatter": "{b}: {d}%"}, "data": [{"value": 8, "name": "积极", "itemStyle": {"color": "#4CAF50"}}, {"value": 44, "name": "中性", "itemStyle": {"color": "#FFC107"}}, {"value": 5, "name": "消极", "itemStyle": {"color": "#F44336"}}]}]});
+            
+            // 响应式
+            window.addEventListener('resize', function() {
+                vixChart.resize();
+                sentimentChart.resize();
+            });
+        });
+    </script>
+</body>
+</html>
