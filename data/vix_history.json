@@ -1,0 +1,158 @@
+[
+  {
+    "source": "CBOE",
+    "current": 21.5,
+    "fetch_time": "2026-03-31 18:00:00",
+    "fear_level": "中等",
+    "fear_description": "市场情绪中性",
+    "fear_color": "#FFC107"
+  },
+  {
+    "source": "CBOE",
+    "current": 22.3,
+    "fetch_time": "2026-04-01 18:00:00",
+    "fear_level": "中等",
+    "fear_description": "市场情绪中性",
+    "fear_color": "#FFC107"
+  },
+  {
+    "source": "CBOE",
+    "current": 20.8,
+    "fetch_time": "2026-04-02 18:00:00",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.5,
+    "fetch_time": "2026-04-03 18:00:00",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 18.2,
+    "fetch_time": "2026-04-04 18:00:00",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 17.8,
+    "fetch_time": "2026-04-05 18:00:00",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 16.5,
+    "fetch_time": "2026-04-06 18:00:00",
+    "fear_level": "极低",
+    "fear_description": "市场情绪非常乐观",
+    "fear_color": "#4CAF50"
+  },
+  {
+    "source": "CBOE",
+    "current": 17.2,
+    "fetch_time": "2026-04-07 18:00:00",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 18.5,
+    "fetch_time": "2026-04-08 18:00:00",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.8,
+    "fetch_time": "2026-04-09 18:00:00",
+    "fear_level": "中等",
+    "fear_description": "市场情绪中性",
+    "fear_color": "#FFC107"
+  },
+  {
+    "source": "CBOE",
+    "current": 20.5,
+    "fetch_time": "2026-04-10 18:00:00",
+    "fear_level": "中等",
+    "fear_description": "市场情绪中性",
+    "fear_color": "#FFC107"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.6,
+    "fetch_time": "2026-04-11 18:00:00",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.23,
+    "fetch_time": "2026-04-12 23:14:16",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.23,
+    "fetch_time": "2026-04-13 22:42:04",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.12,
+    "open": 21.17,
+    "high": 21.58,
+    "low": 18.96,
+    "fetch_time": "2026-04-14 20:44:00",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.12,
+    "open": 21.17,
+    "high": 21.58,
+    "low": 18.96,
+    "fetch_time": "2026-04-14 20:59:57",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.12,
+    "open": 21.17,
+    "high": 21.58,
+    "low": 18.96,
+    "fetch_time": "2026-04-14 21:00:45",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  },
+  {
+    "source": "CBOE",
+    "current": 19.12,
+    "open": 21.17,
+    "high": 21.58,
+    "low": 18.96,
+    "fetch_time": "2026-04-14 21:55:24",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
+  }
+]

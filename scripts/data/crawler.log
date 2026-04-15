@@ -1,0 +1,115 @@
+2026-04-14 20:43:35,106 - INFO - ============================================================
+2026-04-14 20:43:35,106 - INFO - 股市新闻监控任务开始
+2026-04-14 20:43:35,106 - INFO - ============================================================
+2026-04-14 20:43:35,106 - INFO - [步骤1/4] 抓取新闻数据...
+2026-04-14 20:43:35,106 - INFO - 开始抓取新闻...
+2026-04-14 20:43:35,250 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-04-14 20:43:36,018 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-04-14 20:43:36,620 - INFO - 新浪财经: 获取 30 条
+2026-04-14 20:43:37,217 - ERROR - [新浪宏观] 获取失败: 'str' object cannot be interpreted as an integer
+2026-04-14 20:43:37,218 - INFO - 新浪宏观: 获取 0 条
+2026-04-14 20:43:37,902 - INFO - 东方财富: 获取 20 条
+2026-04-14 20:43:38,591 - ERROR - [雪球] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 20:43:38,591 - INFO - 雪球: 获取 0 条
+2026-04-14 20:43:39,484 - INFO - 华尔街见闻: 获取 20 条
+2026-04-14 20:43:40,158 - ERROR - [金十数据] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 20:43:40,158 - INFO - 金十数据: 获取 0 条
+2026-04-14 20:43:55,675 - ERROR - [路透社] 请求失败 https://cn.reuters.com/news/china: HTTPSConnectionPool(host='cn.reuters.com', port=443): Max retries exceeded with url: /news/china (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('timed out')))
+2026-04-14 20:43:55,675 - INFO - 路透社: 获取 0 条
+2026-04-14 20:43:55,676 - INFO - 去重后共 57 条新闻
+2026-04-14 20:43:55,696 - INFO -   -> 获取新闻 57 条
+2026-04-14 20:43:55,697 - INFO - [步骤2/4] 抓取VIX数据...
+2026-04-14 20:43:55,698 - INFO - 开始抓取VIX数据...
+2026-04-14 20:43:57,026 - ERROR - [VIX] Yahoo Finance获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 20:44:00,400 - INFO -   -> VIX指数: 19.12
+2026-04-14 20:44:00,400 - INFO -   -> 恐慌等级: 较低
+2026-04-14 20:44:00,401 - INFO - [步骤3/4] 保存数据...
+2026-04-14 20:44:00,498 - INFO - 新闻数据已保存: /app/data/所有对话/主对话/股市新闻网页/data/news_20260414_20.json
+2026-04-14 20:44:00,544 - INFO - VIX数据已保存: /app/data/所有对话/主对话/股市新闻网页/data/vix_latest.json
+2026-04-14 20:44:00,621 - INFO - [步骤4/4] 生成HTML页面...
+2026-04-14 20:44:00,754 - INFO - ============================================================
+2026-04-14 20:44:00,754 - INFO - 任务完成!
+2026-04-14 20:44:00,754 - INFO -   - 新闻数量: 57 条
+2026-04-14 20:44:00,754 - INFO -   - 积极新闻: 16 条
+2026-04-14 20:44:00,754 - INFO -   - 消极新闻: 4 条
+2026-04-14 20:44:00,754 - INFO -   - VIX指数: 19.12
+2026-04-14 20:44:00,754 - INFO -   - 综合预测: 偏多/积极
+2026-04-14 20:44:00,754 - INFO -   - 输出文件: /app/data/所有对话/主对话/股市新闻网页/output/index.html
+2026-04-14 20:44:00,754 - INFO -   - 耗时: 25.65秒
+2026-04-14 20:44:00,754 - INFO - ============================================================
+2026-04-14 21:54:51,706 - INFO - ============================================================
+2026-04-14 21:54:51,706 - INFO - 股市新闻监控任务开始 - 2026-04-14
+2026-04-14 21:54:51,706 - INFO - ============================================================
+2026-04-14 21:54:51,706 - INFO - [步骤1/4] 抓取新闻数据...
+2026-04-14 21:54:51,706 - INFO - 开始抓取新闻...
+2026-04-14 21:54:51,815 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-04-14 21:54:52,665 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-04-14 21:54:53,239 - INFO - 新浪财经: 获取 30 条
+2026-04-14 21:54:53,841 - ERROR - [新浪宏观] 获取失败: 'str' object cannot be interpreted as an integer
+2026-04-14 21:54:53,841 - INFO - 新浪宏观: 获取 0 条
+2026-04-14 21:54:54,490 - INFO - 东方财富: 获取 20 条
+2026-04-14 21:54:55,192 - INFO - 同花顺: 获取 20 条
+2026-04-14 21:54:55,699 - ERROR - [网易财经] 获取失败: HTTPSConnectionPool(host='api.money.126.net', port=443): Max retries exceeded with url: /data/feed/0000001,1399001?callback=a (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error')))
+2026-04-14 21:54:55,863 - INFO - 网易财经: 获取 0 条
+2026-04-14 21:54:57,162 - ERROR - [腾讯财经] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 21:54:57,188 - INFO - 腾讯财经: 获取 0 条
+2026-04-14 21:54:57,894 - ERROR - [财联社] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 21:54:58,010 - INFO - 财联社: 获取 0 条
+2026-04-14 21:55:00,000 - ERROR - [中证报] 请求失败 https://www.cs.com.cn/zqbd/: 404 Client Error: Not Found for url: https://www.cs.com.cn/zqbd/
+2026-04-14 21:55:00,000 - INFO - 中国证券报: 获取 0 条
+2026-04-14 21:55:00,650 - ERROR - [雪球] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 21:55:00,650 - INFO - 雪球: 获取 0 条
+2026-04-14 21:55:01,530 - INFO - 华尔街见闻: 获取 20 条
+2026-04-14 21:55:02,187 - ERROR - [金十数据] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 21:55:02,187 - INFO - 金十数据: 获取 0 条
+2026-04-14 21:55:17,704 - ERROR - [路透社] 请求失败 https://cn.reuters.com/news/china: HTTPSConnectionPool(host='cn.reuters.com', port=443): Max retries exceeded with url: /news/china (Caused by ProxyError('Cannot connect to proxy.', TimeoutError('timed out')))
+2026-04-14 21:55:17,704 - INFO - 路透社: 获取 0 条
+2026-04-14 21:55:17,704 - INFO - 去重后共 75 条新闻
+2026-04-14 21:55:17,743 - INFO -   -> 获取新闻 75 条
+2026-04-14 21:55:17,743 - INFO -   -> 来源统计: {'新浪财经': 29, '东方财富': 20, '同花顺': 20, '华尔街见闻': 6}
+2026-04-14 21:55:17,744 - INFO - [步骤2/4] 抓取VIX数据...
+2026-04-14 21:55:17,745 - INFO - 开始抓取VIX数据...
+2026-04-14 21:55:18,800 - ERROR - [VIX] Yahoo Finance获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 21:55:24,005 - INFO -   -> VIX指数: 19.12
+2026-04-14 21:55:24,006 - INFO -   -> 恐慌等级: 较低
+2026-04-14 21:55:24,006 - INFO - [步骤3/4] 保存数据...
+2026-04-14 21:55:24,058 - INFO - 新闻数据已保存: /app/data/所有对话/主对话/股市新闻网页/data/news_2026-04-14.json
+2026-04-14 21:55:24,160 - INFO - VIX数据已保存: /app/data/所有对话/主对话/股市新闻网页/data/vix_latest.json
+2026-04-14 21:55:24,219 - INFO - [步骤4/4] 生成HTML页面...
+2026-04-14 21:55:24,508 - INFO - ============================================================
+2026-04-14 21:55:24,508 - INFO - 任务完成!
+2026-04-14 21:55:24,508 - INFO -   - 新闻数量: 75 条
+2026-04-14 21:55:24,508 - INFO -   - 新闻来源: 4 个
+2026-04-14 21:55:24,508 - INFO -   - 积极新闻: 17 条
+2026-04-14 21:55:24,508 - INFO -   - 消极新闻: 7 条
+2026-04-14 21:55:24,508 - INFO -   - VIX指数: 19.12
+2026-04-14 21:55:24,508 - INFO -   - 综合预测: 偏多
+2026-04-14 21:55:24,508 - INFO -   - 可用历史: 3 天
+2026-04-14 21:55:24,508 - INFO -   - 输出文件: /app/data/所有对话/主对话/股市新闻网页/output/index.html
+2026-04-14 21:55:24,508 - INFO -   - 耗时: 32.80秒
+2026-04-14 21:55:24,508 - INFO - ============================================================
+2026-04-14 22:08:23,930 - INFO - ============================================================
+2026-04-14 22:08:23,931 - INFO - 股市新闻监控任务开始 - 2026-04-14
+2026-04-14 22:08:23,931 - INFO - ============================================================
+2026-04-14 22:08:23,932 - INFO - [步骤1/4] 抓取新闻数据...
+2026-04-14 22:08:23,932 - INFO - 开始抓取新闻...
+2026-04-14 22:08:24,066 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-04-14 22:08:24,966 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-04-14 22:08:25,559 - INFO - 新浪财经: 获取 30 条
+2026-04-14 22:08:26,188 - ERROR - [新浪宏观] 获取失败: 'str' object cannot be interpreted as an integer
+2026-04-14 22:08:26,189 - INFO - 新浪宏观: 获取 0 条
+2026-04-14 22:08:26,871 - INFO - 东方财富: 获取 20 条
+2026-04-14 22:08:27,779 - INFO - 同花顺: 获取 20 条
+2026-04-14 22:08:28,287 - ERROR - [网易财经] 获取失败: HTTPSConnectionPool(host='api.money.126.net', port=443): Max retries exceeded with url: /data/feed/0000001,1399001?callback=a (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 500 Internal Server Error')))
+2026-04-14 22:08:28,530 - INFO - 网易财经: 获取 0 条
+2026-04-14 22:08:29,174 - ERROR - [腾讯财经] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 22:08:29,208 - INFO - 腾讯财经: 获取 0 条
+2026-04-14 22:08:29,890 - ERROR - [财联社] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 22:08:30,009 - INFO - 财联社: 获取 0 条
+2026-04-14 22:08:30,680 - ERROR - [中证报] 请求失败 https://www.cs.com.cn/zqbd/: 404 Client Error: Not Found for url: https://www.cs.com.cn/zqbd/
+2026-04-14 22:08:30,680 - INFO - 中国证券报: 获取 0 条
+2026-04-14 22:08:31,316 - ERROR - [雪球] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 22:08:31,316 - INFO - 雪球: 获取 0 条
+2026-04-14 22:08:32,184 - INFO - 华尔街见闻: 获取 20 条
+2026-04-14 22:08:32,830 - ERROR - [金十数据] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-14 22:08:32,831 - INFO - 金十数据: 获取 0 条

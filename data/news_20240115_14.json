@@ -1,0 +1,66 @@
+[
+    {
+        "title": "A股三大指数集体上涨，创业板指涨逾2%",
+        "url": "https://finance.sina.com.cn/stock/",
+        "source": "新浪财经",
+        "category": "stock",
+        "datetime": "2024-01-15 14:30",
+        "fetch_time": "2024-01-15 14:00:00"
+    },
+    {
+        "title": "央行宣布降准0.5个百分点，释放长期资金1万亿",
+        "url": "https://finance.eastmoney.com/",
+        "source": "东方财富",
+        "category": "macro",
+        "datetime": "2024-01-15 10:00",
+        "fetch_time": "2024-01-15 14:00:00"
+    },
+    {
+        "title": "宁德时代业绩超预期，股价创历史新高",
+        "url": "https://xueqiu.com/",
+        "source": "雪球",
+        "category": "stock",
+        "datetime": "2024-01-15 09:30",
+        "fetch_time": "2024-01-15 14:00:00"
+    },
+    {
+        "title": "美股三大指数涨跌互现，科技股普遍回调",
+        "url": "https://finance.sina.com.cn/",
+        "source": "新浪财经",
+        "category": "stock",
+        "datetime": "2024-01-15 08:00",
+        "fetch_time": "2024-01-15 14:00:00"
+    },
+    {
+        "title": "港股恒生指数高开高走，互联网科技股领涨",
+        "url": "https://finance.eastmoney.com/",
+        "source": "东方财富",
+        "category": "stock",
+        "datetime": "2024-01-15 11:00",
+        "fetch_time": "2024-01-15 14:00:00"
+    },
+    {
+        "title": "统计局：2023年GDP增长5.2%，经济运行稳中向好",
+        "url": "https://finance.sina.com.cn/",
+        "source": "新浪财经",
+        "category": "macro",
+        "datetime": "2024-01-15 09:00",
+        "fetch_time": "2024-01-15 14:00:00"
+    },
+    {
+        "title": "房地产市场持续低迷，多地房价出现调整",
+        "url": "https://finance.eastmoney.com/",
+        "source": "东方财富",
+        "category": "macro",
+        "datetime": "2024-01-15 13:00",
+        "fetch_time": "2024-01-15 14:00:00"
+    },
+    {
+        "title": "特斯拉降价引发新能源车市场震荡",
+        "url": "https://xueqiu.com/",
+        "source": "雪球",
+        "category": "stock",
+        "datetime": "2024-01-15 12:00",
+        "fetch_time": "2024-01-15 14:00:00"
+    }
+]

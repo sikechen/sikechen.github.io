@@ -1,0 +1,11 @@
+{
+  "source": "CBOE",
+  "current": 19.12,
+  "open": 21.17,
+  "high": 21.58,
+  "low": 18.96,
+  "fetch_time": "2026-04-14 21:55:24",
+  "fear_level": "较低",
+  "fear_description": "市场情绪较为乐观",
+  "fear_color": "#8BC34A"
+}

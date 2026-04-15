@@ -1,0 +1,17 @@
+# 股市新闻监控系统 - 依赖包
+
+# 核心依赖
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+pandas>=2.0.0
+
+# 可选依赖 (用于增强功能)
+# selenium>=4.15.0  # 用于动态网页爬取
+# playwright>=1.40.0  # 替代selenium的现代方案
+
+# 数据可视化 (已在HTML中通过CDN加载)
+# echarts>=5.4.0
+
+# 日志和工具
+# python-dotenv>=1.0.0  # 用于管理环境变量
