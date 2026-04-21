@@ -1371,3 +1371,55 @@ TypeError: string indices must be integers, not 'str'
 2026-04-20 16:21:01,122 - INFO -   - 输出文件: /home/runner/work/sikechen.github.io/sikechen.github.io/output/index.html
 2026-04-20 16:21:01,122 - INFO -   - 耗时: 26.11秒
 2026-04-20 16:21:01,122 - INFO - ============================================================
+2026-04-21 06:24:27,053 - INFO - ============================================================
+2026-04-21 06:24:27,053 - INFO - 股市新闻监控任务开始 - 2026-04-21
+2026-04-21 06:24:27,053 - INFO - ============================================================
+2026-04-21 06:24:27,053 - INFO - [步骤1/4] 抓取新闻数据...
+2026-04-21 06:24:27,053 - INFO - 开始抓取新闻...
+2026-04-21 06:24:29,671 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-04-21 06:24:34,836 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-04-21 06:24:35,451 - INFO - 新浪财经: 获取 30 条
+2026-04-21 06:24:36,868 - ERROR - [新浪宏观] 获取失败: 'str' object cannot be interpreted as an integer
+2026-04-21 06:24:36,868 - INFO - 新浪宏观: 获取 0 条
+2026-04-21 06:24:52,657 - ERROR - [东方财富] API请求失败: HTTPSConnectionPool(host='np-anotice-stock.eastmoney.com', port=443): Read timed out. (read timeout=15)
+2026-04-21 06:24:52,657 - INFO - 东方财富: 获取 0 条
+2026-04-21 06:25:03,909 - ERROR - [同花顺] 获取失败: HTTPSConnectionPool(host='news.10jqka.com.cn', port=443): Read timed out. (read timeout=10)
+2026-04-21 06:25:04,578 - INFO - 同花顺: 获取 0 条
+2026-04-21 06:25:05,232 - ERROR - [网易财经] 获取失败: HTTPSConnectionPool(host='api.money.126.net', port=443): Max retries exceeded with url: /data/feed/0000001,1399001?callback=a (Caused by NameResolutionError("HTTPSConnection(host='api.money.126.net', port=443): Failed to resolve 'api.money.126.net' ([Errno -2] Name or service not known)"))
+2026-04-21 06:25:06,544 - INFO - 网易财经: 获取 0 条
+2026-04-21 06:25:08,702 - ERROR - [腾讯财经] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-21 06:25:09,107 - INFO - 腾讯财经: 获取 0 条
+2026-04-21 06:25:10,990 - ERROR - [财联社] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-21 06:25:11,546 - INFO - 财联社: 获取 0 条
+2026-04-21 06:25:13,335 - ERROR - [中证报] 请求失败 https://www.cs.com.cn/zqbd/: 404 Client Error: Not Found for url: https://www.cs.com.cn/zqbd/
+2026-04-21 06:25:13,335 - INFO - 中国证券报: 获取 0 条
+2026-04-21 06:25:15,955 - ERROR - [雪球] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-21 06:25:15,956 - INFO - 雪球: 获取 0 条
+2026-04-21 06:25:17,265 - INFO - 华尔街见闻: 获取 20 条
+2026-04-21 06:25:18,740 - ERROR - [金十数据] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-04-21 06:25:18,741 - INFO - 金十数据: 获取 0 条
+2026-04-21 06:25:19,695 - ERROR - [路透社] 请求失败 https://cn.reuters.com/news/china: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com?edition-redirect=cn
+2026-04-21 06:25:19,695 - INFO - 路透社: 获取 0 条
+2026-04-21 06:25:19,695 - INFO - 去重后共 34 条新闻
+2026-04-21 06:25:19,706 - INFO -   -> 获取新闻 34 条
+2026-04-21 06:25:19,710 - INFO -   -> 来源统计: {'新浪财经': 29, '华尔街见闻': 5}
+2026-04-21 06:25:19,710 - INFO - [步骤2/4] 抓取VIX数据...
+2026-04-21 06:25:19,710 - INFO - 开始抓取VIX数据...
+2026-04-21 06:25:19,912 - INFO -   -> VIX指数: 18.87
+2026-04-21 06:25:19,912 - INFO -   -> 恐慌等级: 较低
+2026-04-21 06:25:19,912 - INFO - [步骤3/4] 保存数据...
+2026-04-21 06:25:19,913 - INFO - 新闻数据已保存: /home/runner/work/sikechen.github.io/sikechen.github.io/data/news_2026-04-21.json
+2026-04-21 06:25:19,913 - INFO - VIX数据已保存: /home/runner/work/sikechen.github.io/sikechen.github.io/data/vix_latest.json
+2026-04-21 06:25:19,916 - INFO - [步骤4/4] 生成HTML页面...
+2026-04-21 06:25:19,947 - INFO - ============================================================
+2026-04-21 06:25:19,947 - INFO - 任务完成!
+2026-04-21 06:25:19,947 - INFO -   - 新闻数量: 34 条
+2026-04-21 06:25:19,947 - INFO -   - 新闻来源: 2 个
+2026-04-21 06:25:19,947 - INFO -   - 积极新闻: 8 条
+2026-04-21 06:25:19,947 - INFO -   - 消极新闻: 1 条
+2026-04-21 06:25:19,947 - INFO -   - VIX指数: 18.87
+2026-04-21 06:25:19,947 - INFO -   - 综合预测: 偏多/积极
+2026-04-21 06:25:19,947 - INFO -   - 可用历史: 7 天
+2026-04-21 06:25:19,947 - INFO -   - 输出文件: /home/runner/work/sikechen.github.io/sikechen.github.io/output/index.html
+2026-04-21 06:25:19,947 - INFO -   - 耗时: 52.89秒
+2026-04-21 06:25:19,947 - INFO - ============================================================
