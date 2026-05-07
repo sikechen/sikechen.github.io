@@ -5275,3 +5275,54 @@ TypeError: string indices must be integers, not 'str'
 2026-05-07 02:44:27,349 - INFO -   - 输出文件: /home/runner/work/sikechen.github.io/sikechen.github.io/output/index.html
 2026-05-07 02:44:27,349 - INFO -   - 耗时: 21.95秒
 2026-05-07 02:44:27,349 - INFO - ============================================================
+2026-05-07 06:33:52,495 - INFO - ============================================================
+2026-05-07 06:33:52,495 - INFO - 股市新闻监控任务开始 - 2026-05-07
+2026-05-07 06:33:52,496 - INFO - ============================================================
+2026-05-07 06:33:52,496 - INFO - [步骤1/4] 抓取新闻数据...
+2026-05-07 06:33:52,496 - INFO - 开始抓取新闻...
+2026-05-07 06:33:53,964 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-05-07 06:33:55,931 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-05-07 06:33:56,528 - INFO - 新浪财经: 获取 30 条
+2026-05-07 06:33:58,207 - ERROR - [新浪宏观] 获取失败: 'str' object cannot be interpreted as an integer
+2026-05-07 06:33:58,207 - INFO - 新浪宏观: 获取 0 条
+2026-05-07 06:33:59,848 - INFO - 东方财富: 获取 20 条
+2026-05-07 06:34:11,149 - ERROR - [同花顺] 获取失败: HTTPSConnectionPool(host='news.10jqka.com.cn', port=443): Read timed out. (read timeout=10)
+2026-05-07 06:34:12,040 - INFO - 同花顺: 获取 0 条
+2026-05-07 06:34:12,751 - ERROR - [网易财经] 获取失败: HTTPSConnectionPool(host='api.money.126.net', port=443): Max retries exceeded with url: /data/feed/0000001,1399001?callback=a (Caused by NameResolutionError("HTTPSConnection(host='api.money.126.net', port=443): Failed to resolve 'api.money.126.net' ([Errno -2] Name or service not known)"))
+2026-05-07 06:34:13,937 - INFO - 网易财经: 获取 0 条
+2026-05-07 06:34:15,813 - ERROR - [腾讯财经] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-05-07 06:34:16,230 - INFO - 腾讯财经: 获取 0 条
+2026-05-07 06:34:18,854 - ERROR - [财联社] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-05-07 06:34:20,181 - INFO - 财联社: 获取 0 条
+2026-05-07 06:34:21,706 - ERROR - [中证报] 请求失败 https://www.cs.com.cn/zqbd/: 404 Client Error: Not Found for url: https://www.cs.com.cn/zqbd/
+2026-05-07 06:34:21,706 - INFO - 中国证券报: 获取 0 条
+2026-05-07 06:34:24,516 - ERROR - [雪球] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-05-07 06:34:24,516 - INFO - 雪球: 获取 0 条
+2026-05-07 06:34:25,788 - INFO - 华尔街见闻: 获取 20 条
+2026-05-07 06:34:27,426 - ERROR - [金十数据] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-05-07 06:34:27,426 - INFO - 金十数据: 获取 0 条
+2026-05-07 06:34:28,230 - ERROR - [路透社] 请求失败 https://cn.reuters.com/news/china: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com?edition-redirect=cn
+2026-05-07 06:34:28,230 - INFO - 路透社: 获取 0 条
+2026-05-07 06:34:28,230 - INFO - 去重后共 54 条新闻
+2026-05-07 06:34:28,241 - INFO -   -> 获取新闻 54 条
+2026-05-07 06:34:28,245 - INFO -   -> 来源统计: {'新浪财经': 30, '东方财富': 20, '华尔街见闻': 4}
+2026-05-07 06:34:28,245 - INFO - [步骤2/4] 抓取VIX数据...
+2026-05-07 06:34:28,245 - INFO - 开始抓取VIX数据...
+2026-05-07 06:34:28,318 - INFO -   -> VIX指数: 17.39
+2026-05-07 06:34:28,318 - INFO -   -> 恐慌等级: 较低
+2026-05-07 06:34:28,318 - INFO - [步骤3/4] 保存数据...
+2026-05-07 06:34:28,319 - INFO - 新闻数据已保存: /home/runner/work/sikechen.github.io/sikechen.github.io/data/news_2026-05-07.json
+2026-05-07 06:34:28,320 - INFO - VIX数据已保存: /home/runner/work/sikechen.github.io/sikechen.github.io/data/vix_latest.json
+2026-05-07 06:34:28,326 - INFO - [步骤4/4] 生成HTML页面...
+2026-05-07 06:34:28,360 - INFO - ============================================================
+2026-05-07 06:34:28,360 - INFO - 任务完成!
+2026-05-07 06:34:28,360 - INFO -   - 新闻数量: 54 条
+2026-05-07 06:34:28,360 - INFO -   - 新闻来源: 3 个
+2026-05-07 06:34:28,360 - INFO -   - 积极新闻: 19 条
+2026-05-07 06:34:28,360 - INFO -   - 消极新闻: 2 条
+2026-05-07 06:34:28,360 - INFO -   - VIX指数: 17.39
+2026-05-07 06:34:28,360 - INFO -   - 综合预测: 偏多/积极
+2026-05-07 06:34:28,360 - INFO -   - 可用历史: 7 天
+2026-05-07 06:34:28,360 - INFO -   - 输出文件: /home/runner/work/sikechen.github.io/sikechen.github.io/output/index.html
+2026-05-07 06:34:28,360 - INFO -   - 耗时: 35.86秒
+2026-05-07 06:34:28,361 - INFO - ============================================================
