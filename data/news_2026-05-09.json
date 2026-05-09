@@ -1,0 +1,602 @@
+[
+  {
+    "title": "被动投资大时代来临 上市ETF数量突破1500只",
+    "url": "https://finance.sina.com.cn/roll/2026-05-09/doc-inhxfnzt1905427.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "ETF日报：随着高油价逐渐常态化，市场对美国经济“滞胀”前景的担忧逐渐照进现实",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-05-08/doc-inhxfanc4136001.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "算力芯片掉头向下，寒武纪跌超5%，赛道过热了吗？中信证券：景气不止、行情不止",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-05-08/doc-inhxewcz7563900.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "大事件预期拉满，商业航天卷土重来！华宝基金军工ETF（512810）逆市涨2%斩获五连阳！",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-05-08/doc-inhxewec4340261.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "高层定调后，核心城市密集松绑！龙头地产连续活跃，全市场唯一地产ETF（159707）逆市六连阳！",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-05-08/doc-inhxewec4339625.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "华南城将被清盘！第三大股东腾讯23亿投资打水漂",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-08-12/doc-infktfvz8814540.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "民营房企重返土拍市场 谁在加大力度拿地？",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-06-10/doc-inezqwaa3375791.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "二手房成交占比迅速攀升 贝壳将发挥更多价值？",
+    "url": "https://finance.sina.com.cn/stock/gsjd/2025-05-21/doc-inexhwwe0494219.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "万科迎来改革发展转机：去年完成超18万套房子交付，今年一季度公开债已兑付",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-04-02/doc-inertrws5580828.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "中国金茂进入业绩兑现期？持续投资迎来收获 开发业务毛利率大幅提升",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-04-01/doc-inerrnxs6345481.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "舍得酒业：产品创新拓展增量市场 电商、大众酒、年轻化成为前三季度最大经营亮点",
+    "url": "https://finance.sina.com.cn/stock/observe/2025-10-31/doc-infvutkq3271608.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "煌上煌再度进行外延式并购：自身收入连续萎缩产能利用率低至23% 并购能否帮助公司脱困",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-18/doc-infmkyuc3513942.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "卫龙美味营收、净利保持双位数增长 第二增长曲线蔬菜制品收入达到21.09亿元",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-15/doc-infmacic4386628.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "神农集团按下扩张暂停键 反内卷是否意味着行业拐点？",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-12/doc-infksvhi3488630.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "广农糖业募资必要性存疑：产能利用率仅为21.66% 巨额负债压力下困境待解",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-07-28/doc-infhywqz5801770.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "内外利好共振 A股5月有望再攀新高",
+    "url": "https://finance.sina.cn/zt_d/subject-1778201018",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "A股主要股指高位休整 板块热点出现高低切换",
+    "url": "https://finance.sina.com.cn/stock/marketresearch/2026-05-09/doc-inhxfnzt1906088.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "一精神病医院炒股，市值近千万！成上市公司前十大股东！最新回应来了",
+    "url": "https://finance.sina.com.cn/wm/2026-05-09/doc-inhxfxrp1691934.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "美股全线爆发！“CPU双雄”大涨",
+    "url": "https://finance.sina.com.cn/stock/roll/2026-05-09/doc-inhxfxrp1691790.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "上市14天猛涨10倍！2200亿存储大牛股紧急提示风险",
+    "url": "https://finance.sina.com.cn/wm/2026-05-08/doc-inhxfhtx4156846.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "“十五五”开局电网投资放量 电力设备上市公司密集斩获大单",
+    "url": "https://finance.sina.com.cn/stock/hyyj/2026-05-09/doc-inhxftiv3820070.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "机构研判四类标的有望实现超额收益",
+    "url": "https://finance.sina.com.cn/jjxw/2026-05-09/doc-inhxftir1797137.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "人均奖金610万，涵盖门卫、司机和前台？SK海力士天价奖金真相",
+    "url": "https://finance.sina.com.cn/roll/2026-05-09/doc-inhxfxrp7093825.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "调查报告：近七成投资者看涨二季度",
+    "url": "https://finance.sina.com.cn/stock/marketresearch/2026-05-08/doc-inhxccuz4604149.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "4连板牛股突发，正筹划大项目！冲上20万元/吨，“白色石油”又牛了！",
+    "url": "https://finance.sina.com.cn/wm/2026-05-08/doc-inhxcust4304491.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "券业重磅！霍达履新招商金控，“风控专家”朱江涛，代任招商证券董事长",
+    "url": "https://finance.sina.com.cn/wm/2026-05-08/doc-inhxerwc2175070.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "官宣！招商证券总裁朱江涛代行董事长职务",
+    "url": "https://finance.sina.com.cn/wm/2026-05-08/doc-inhxerwc2167654.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "新三板梯度培育体系完善 挂牌企业踊跃筹备北交所IPO",
+    "url": "https://finance.sina.com.cn/jjxw/2026-05-09/doc-inhxfhtv2024669.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "*ST恒久：深交所拟决定终止公司股票上市交易",
+    "url": "https://finance.sina.com.cn/jjxw/2026-05-08/doc-inhxfamx2106698.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-05-09 02:43:11"
+  },
+  {
+    "title": "华安证券恒赢20号集合资产管理计划合同条款变更的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-12-26 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "银河上证国有企业红利交易型开放式指数证券投资基金分红公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-11 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-尊鑫69号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-光鑫策略1号信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-招享天利2号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-凤鸣光恒14号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-日日盈宝2号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-尊鑫1号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-日日盈宝9号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "太平嘉信债券型证券投资基金(A类份额)基金产品资料概要",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "中信保诚嘉润66个月定期开放债券型证券投资基金第一个开放期开放申购、赎回及转换业务的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "华钰矿业:华钰矿业2025年年度股东会会议资料",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "宝盈盈旭纯债债券型证券投资基金(宝盈盈旭纯债债券C份额)基金产品资料概要(更新)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "关于西部利得双兴一年定期开放债券型发起式证券投资基金调低托管费率并修改基金合同等法律文件相应条款的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "关于海富通恒益金融债一年定期开放债券型发起式证券投资基金C类份额新增珠海盈米基金销售有限公司为销售机构的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-鸿鹄81号信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-尊睿稳健33号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-中盈固收策略18号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-光鑫稳盈13号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-光鑫稳盈12号集合资金信托计划-20260508",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-05-09 00:00:00",
+    "fetch_time": "2026-05-09 02:43:16"
+  },
+  {
+    "title": "百度发布文心5.1预训练成本仅为业界6%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778294579",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "中国4月贸易顺差848.2亿美元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778294560",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "中国4月以美元计价出口同比增长14.1%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778294551",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "抖音：开展涉税虚假宣传信息治理 目前已处置违规账号153个",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778294243",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "中方：核共享安排阻碍核裁军进程 加剧核战争风险",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778293881",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "商务部：中俄贸易连续三年突破2000亿美元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778292948",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "福建省委书记周祖翼会见京东集团董事局主席刘强东",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778292825",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "2026年一季度国内黄金ETF增仓量为50.44吨，同比增长114.88%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778292670",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "中国黄金协会：一季度我国黄金消费量同比增长4.41% 其中黄金首饰同比下降37%、金条及金币同比增长46.4%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778292512",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "我国第四代自主超导量子计算机“本源悟空-180”上线",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778292116",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "普惠算力多项重要成果在雄安新区发布",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778292026",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "被控在美性侵的资本大佬失联，代持协议能否影响控制权争夺",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778291877",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "接入超300款AI大模型，国内最大大模型服务平台正式上线",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778291703",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "国家发展改革委主任郑栅洁主任赴上海人工智能实验室调研",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778291106",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "中东战事冲击农业生产　全球粮价连续第三个月上涨",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778290826",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "大摩：半导体行业涨势尚未见顶，上调IonQ、微芯科技及格芯的目标价",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778290294",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "特朗普说或把部分驻德美军转移至波兰",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778290284",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "特斯拉召回173辆Cybertruck",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778290090",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "辽宁：计划到2028年底 全省甲醇汽车生产规模达到5万辆以上",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778290066",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "中方强调“两国方案”是解决巴勒斯坦问题唯一可行出路",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1778289974",
+    "fetch_time": "2026-05-09 02:43:18"
+  },
+  {
+    "title": "中国4月以美元计价出口同比增长14.1%; 预估为+8.4%。\n中国4月以美元计价进口同比增长25.3%; 预估为+20.0%",
+    "url": "https://wallstreetcn.com/articles/3771888",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-05-09 02:40",
+    "fetch_time": "2026-05-09 02:43:32"
+  },
+  {
+    "title": "算力尽头是电力，电力尽头是储能：全球算力军备下，AIDC储能需求有望实现10年百倍增长？",
+    "url": "https://wallstreetcn.com/premium/articles/3771728?layout=wscn-layout",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-05-09 02:29",
+    "fetch_time": "2026-05-09 02:43:32"
+  },
+  {
+    "title": "特朗普：可能恢复“自由计划”行动，伊朗：正制定霍尔木兹海峡相关法律草案",
+    "url": "https://wallstreetcn.com/articles/3771883",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-05-09 02:13",
+    "fetch_time": "2026-05-09 02:43:32"
+  },
+  {
+    "title": "聚焦东海证券收购案，东吴证券直面中小投资者担忧",
+    "url": "https://wallstreetcn.com/articles/3771886",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-05-09 02:12",
+    "fetch_time": "2026-05-09 02:43:32"
+  },
+  {
+    "title": "为了区区5000元，这家老资格私募吃了“罚单”",
+    "url": "https://wallstreetcn.com/articles/3771885",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-05-09 02:09",
+    "fetch_time": "2026-05-09 02:43:32"
+  },
+  {
+    "title": "彻底撕破脸了！OpenAI官司法庭辩论上演“人身攻击”：马斯克“不懂AI且暴躁”，Altman“人品低劣又虚伪”",
+    "url": "https://wallstreetcn.com/articles/3771878",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-05-09 01:40",
+    "fetch_time": "2026-05-09 02:43:32"
+  }
+]
