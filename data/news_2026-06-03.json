@@ -1,0 +1,602 @@
+[
+  {
+    "title": "中韩企业可持续发展交流会",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1779436049/?amp=&ver=cj&wm=6121",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "央视曝光陈克明心机商标",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1779773155",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "京东酒类销售猛增40%！吃喝板块继续寻底，华宝基金食品饮料ETF（515710）跌1.76%！",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-06-03/doc-iniaavwu2586142.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "见证历史！中际旭创股价超茅台！CPO彻底引爆，高“光”创业板人工智能ETF华宝（159363）爆量涨超5%持续新高",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-06-03/doc-iniaavwy1093037.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "电子板块为何成“宠儿”？市值+赛道+业绩共同支撑！华宝基金电子ETF猛拉4%，标的指数近1年暴涨120%",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-06-03/doc-iniaavwu2583769.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "军工反弹！华宝基金军工ETF（512810）收复年线，此前3日4900万资金加仓！火炬电子5天4板，中航光电涨超5%",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-06-03/doc-iniaavww4295115.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "港股硬科技，直线拉升！规模最大港股通信息技术ETF华宝（159131）冲高1.71%再创上市新高",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-06-03/doc-iniaavwy1058881.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "华南城将被清盘！第三大股东腾讯23亿投资打水漂",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-08-12/doc-infktfvz8814540.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "民营房企重返土拍市场 谁在加大力度拿地？",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-06-10/doc-inezqwaa3375791.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "二手房成交占比迅速攀升 贝壳将发挥更多价值？",
+    "url": "https://finance.sina.com.cn/stock/gsjd/2025-05-21/doc-inexhwwe0494219.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "万科迎来改革发展转机：去年完成超18万套房子交付，今年一季度公开债已兑付",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-04-02/doc-inertrws5580828.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "中国金茂进入业绩兑现期？持续投资迎来收获 开发业务毛利率大幅提升",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-04-01/doc-inerrnxs6345481.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "舍得酒业：产品创新拓展增量市场 电商、大众酒、年轻化成为前三季度最大经营亮点",
+    "url": "https://finance.sina.com.cn/stock/observe/2025-10-31/doc-infvutkq3271608.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "口子窖二季度业绩失守：销售费用率不断下降 实际控制人减持",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-22/doc-infmvzeh5609502.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "煌上煌再度进行外延式并购：自身收入连续萎缩产能利用率低至23% 并购能否帮助公司脱困",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-18/doc-infmkyuc3513942.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "卫龙美味营收、净利保持双位数增长 第二增长曲线蔬菜制品收入达到21.09亿元",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-15/doc-infmacic4386628.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "神农集团按下扩张暂停键 反内卷是否意味着行业拐点？",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-12/doc-infksvhi3488630.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "A股6月“开门红”落空，后市行情如何演绎？",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1780361508/index.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "光通信大消息，“易中天”股价同日创新高",
+    "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniaavwv1034354.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "外资公募再增资 中国资产性价比吸引全球资金",
+    "url": "https://finance.sina.com.cn/roll/2026-06-03/doc-iniaaeze4465634.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "快讯：中际旭创涨超8%，现报1288元，股价超越贵州茅台",
+    "url": "https://finance.sina.com.cn/money/nmetal/2026-06-03/doc-iniaavww4297680.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "股市直播|创业板指、科创综指双双涨近4% 算力硬件概念集体爆发",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1780447683",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "SpaceX最快6月12日上市，A股供应商名单曝光",
+    "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniaavwu2566966.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "中国资产性价比吸引全球资金",
+    "url": "https://finance.sina.com.cn/roll/2026-06-03/doc-iniaaeze4465634.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "6月百基新发、多点开花 机构：A股市场中长期配置价值不改",
+    "url": "https://finance.sina.com.cn/roll/2026-06-03/doc-inhzzyte2883100.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "合规整改率先落地！老虎国际最新发布，管理层回应新规影响",
+    "url": "https://finance.sina.com.cn/roll/2026-06-03/doc-iniaarqy4291808.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "英伟达联手加持、大厂扎堆投资！宇树科技“闪电”提交IPO注册",
+    "url": "https://finance.sina.com.cn/stock/zqgd/2026-06-03/doc-iniaarqw2591829.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "宇树IPO过会背后：险资重仓硬科技，重构科创投资版图",
+    "url": "https://finance.sina.com.cn/stock/newstock/2026-06-02/doc-inhzzumn1426791.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "港股回购热度升温 机构建议关注结构性机会",
+    "url": "https://finance.sina.com.cn/jjxw/2026-06-03/doc-iniaarqx1050441.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-06-03 03:57:17"
+  },
+  {
+    "title": "华安证券恒赢20号集合资产管理计划合同条款变更的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-12-26 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "华安证券恒赢18号集合资产管理计划合同条款变更的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-17 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "财达尊享半年增利1号集合资产管理计划第十四次收益分配预告(1)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-05 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "财达证券股份有限公司关于财达尊享半年增利1号集合资产管理计划第十四次开放的公告(1)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-05 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "截至二零二六年五月三十一日止月份股份发行人的证券变动月报表",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "尚郡甜圈九号私募证券投资基金私募基金合同",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "184440:国泰海通证券股份有限公司关于武汉市城市建设投资开发集团有限公司涉及取消监事会、设立审计与风险委员会事项的临时债权代理事务报告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "平安中证工业有色金属主题交易型开放式指数证券投资基金基金份额上市交易公告书",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "东吴证券:国泰海通证券股份有限公司关于东吴证券股份有限公司本次交易产业政策和交易类型之独立财务顾问核查意见",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "银河基金管理有限公司关于以通讯方式召开银河君怡纯债债券型证券投资基金基金份额持有人大会的第二次提示性公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "关于招商添轩1年定期开放债券型证券投资基金提前结束申购赎回及转换业务并进入下一运作周期的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "泓德战略转型股票型证券投资基金基金产品资料概要更新",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "泓德泓华灵活配置混合型证券投资基金招募说明书(2026年6月更新)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "泓德泓信灵活配置混合型证券投资基金招募说明书(2026年6月更新)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "银华惠增利货币市场基金A类基金份额恢复及暂停部分代销机构的机构投资者大额申购(含定期定额投资及转换转入)业务的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "广发创新升级灵活配置混合型证券投资基金基金经理变更公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "鹏华上证科创板50成份交易型开放式指数证券投资基金基金产品资料概要(更新)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "片仔癀:漳州片仔癀药业股份有限公司2025年年度股东会会议材料",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "易方达国证新能源电池交易型开放式指数证券投资基金发起式联接基金(易方达国证新能源电池ETF联接发起式C)基金产品资料概要更新",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "南方基金管理股份有限公司关于以通讯方式召开南方深证主板50交易型开放式指数证券投资基金基金份额持有人大会的第二次提示性公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-06-03 00:00:00",
+    "fetch_time": "2026-06-03 03:57:24"
+  },
+  {
+    "title": "百亿私募达到139家，再创历史新高",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780458912",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "亚太机器人世界杯北京中心正式落地朝阳",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780458794",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "印尼基准股指下跌4%至5950点",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780458703",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "浙江交科：下属公司中标甬金衢上高速公路项目 合同金额为人民币21.12亿元和人民币5.99亿元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780458337",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "隆基绿能佘海峰：预计此轮光伏周期还将持续12-18个月",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780458240",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "中亦科技：长鑫存储、长江存储均为公司客户",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780458207",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "日经225指数日内涨幅扩大至3%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780458189",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "中国船舶（香港）航运租赁有限公司原董事长杨力接受审查调查",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780458029",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "南向资金净买入超60亿港元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780457708",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "印尼基准股指跌幅扩大至3%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780457634",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "日本东证指数首次突破4000点",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780457621",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "RCEP全面生效三周年，广东口岸连续三年税款减让大幅增长",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780457504",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "ETF午评：通信ETF领涨8.26%，港股互联网ETF领跌3.85%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780457476",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "A股午评：创业板指半日大涨近4% 站上4200点 AI算力硬件股全线爆发",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780457459",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "ETF两市成交额2295.61亿元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780457451",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "股指期货早盘收盘 主力合约全线上涨",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780457440",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "5月马来西亚原油官方售价设定为每桶升水126.80美元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780456910",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "工业富联股价创历史新高 市值超越贵州茅台",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780456417",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "今日MMLC电池级碳酸锂（早盘）价格较昨日下跌2750元/吨",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780456351",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "摩根大通将阿斯麦目标价从1813美元上调至2200美元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1780456247",
+    "fetch_time": "2026-06-03 03:57:26"
+  },
+  {
+    "title": "1.5万亿美元的“暗产出”，SemiAnalysis：AI正在创造GDP无法看见的财富",
+    "url": "https://wallstreetcn.com/articles/3773619",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-06-03 03:43",
+    "fetch_time": "2026-06-03 03:57:36"
+  },
+  {
+    "title": "遭全员强烈抵制，Meta“炼化员工”计划被迫收缩",
+    "url": "https://wallstreetcn.com/articles/3773745",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-06-03 03:43",
+    "fetch_time": "2026-06-03 03:57:36"
+  },
+  {
+    "title": "4亿增持“灵笼”母公司，阅文强化IP运营",
+    "url": "https://wallstreetcn.com/articles/3773746",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-06-03 03:38",
+    "fetch_time": "2026-06-03 03:57:36"
+  },
+  {
+    "title": "普通人自建AI投研工作流的诀窍：用好Harness、Skill、GitHub三板斧",
+    "url": "https://wallstreetcn.com/premium/articles/3773739?layout=wscn-layout",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-06-03 03:37",
+    "fetch_time": "2026-06-03 03:57:36"
+  },
+  {
+    "title": "日元逼近160心理关口，市场关注今天下午日本央行行长讲话",
+    "url": "https://wallstreetcn.com/articles/3773744",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-06-03 03:31",
+    "fetch_time": "2026-06-03 03:57:36"
+  },
+  {
+    "title": "AI行情推亚太股市飙升，日经指数再创新高，东京电子涨10%、台积电新高，油价逼近100美元",
+    "url": "https://wallstreetcn.com/articles/3773742",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-06-03 03:31",
+    "fetch_time": "2026-06-03 03:57:36"
+  }
+]
