@@ -15657,3 +15657,53 @@ TypeError: string indices must be integers, not 'str'
 2026-06-23 07:47:48,586 - INFO -   - 输出文件: /home/runner/work/sikechen.github.io/sikechen.github.io/output/index.html
 2026-06-23 07:47:48,586 - INFO -   - 耗时: 28.00秒
 2026-06-23 07:47:48,586 - INFO - ============================================================
+2026-06-23 11:14:26,327 - INFO - ============================================================
+2026-06-23 11:14:26,327 - INFO - 股市新闻监控任务开始 - 2026-06-23
+2026-06-23 11:14:26,327 - INFO - ============================================================
+2026-06-23 11:14:26,327 - INFO - [步骤1/4] 抓取新闻数据...
+2026-06-23 11:14:26,327 - INFO - 开始抓取新闻...
+2026-06-23 11:14:27,729 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-06-23 11:14:29,540 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-06-23 11:14:30,148 - INFO - 新浪财经: 获取 30 条
+2026-06-23 11:14:31,624 - ERROR - [新浪宏观] 获取失败: 'str' object cannot be interpreted as an integer
+2026-06-23 11:14:31,624 - INFO - 新浪宏观: 获取 0 条
+2026-06-23 11:14:33,787 - INFO - 东方财富: 获取 20 条
+2026-06-23 11:14:35,827 - INFO - 同花顺: 获取 20 条
+2026-06-23 11:14:36,443 - ERROR - [网易财经] 获取失败: HTTPSConnectionPool(host='api.money.126.net', port=443): Max retries exceeded with url: /data/feed/0000001,1399001?callback=a (Caused by NameResolutionError("HTTPSConnection(host='api.money.126.net', port=443): Failed to resolve 'api.money.126.net' ([Errno -2] Name or service not known)"))
+2026-06-23 11:14:38,635 - INFO - 网易财经: 获取 0 条
+2026-06-23 11:14:40,498 - ERROR - [腾讯财经] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-06-23 11:14:40,921 - INFO - 腾讯财经: 获取 0 条
+2026-06-23 11:14:43,851 - ERROR - [财联社] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-06-23 11:14:44,377 - INFO - 财联社: 获取 0 条
+2026-06-23 11:14:45,982 - ERROR - [中证报] 请求失败 https://www.cs.com.cn/zqbd/: 404 Client Error: Not Found for url: https://www.cs.com.cn/zqbd/
+2026-06-23 11:14:45,983 - INFO - 中国证券报: 获取 0 条
+2026-06-23 11:14:48,884 - ERROR - [雪球] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-06-23 11:14:48,884 - INFO - 雪球: 获取 0 条
+2026-06-23 11:14:50,073 - INFO - 华尔街见闻: 获取 20 条
+2026-06-23 11:14:51,675 - ERROR - [金十数据] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-06-23 11:14:51,675 - INFO - 金十数据: 获取 0 条
+2026-06-23 11:14:52,603 - ERROR - [路透社] 请求失败 https://cn.reuters.com/news/china: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com?edition-redirect=cn
+2026-06-23 11:14:52,603 - INFO - 路透社: 获取 0 条
+2026-06-23 11:14:52,603 - INFO - 去重后共 76 条新闻
+2026-06-23 11:14:52,618 - INFO -   -> 获取新闻 76 条
+2026-06-23 11:14:52,618 - INFO -   -> 来源统计: {'新浪财经': 30, '东方财富': 20, '同花顺': 20, '华尔街见闻': 6}
+2026-06-23 11:14:52,618 - INFO - [步骤2/4] 抓取VIX数据...
+2026-06-23 11:14:52,618 - INFO - 开始抓取VIX数据...
+2026-06-23 11:14:52,816 - INFO -   -> VIX指数: 19.91
+2026-06-23 11:14:52,816 - INFO -   -> 恐慌等级: 较低
+2026-06-23 11:14:52,816 - INFO - [步骤3/4] 保存数据...
+2026-06-23 11:14:52,817 - INFO - 新闻数据已保存: /home/runner/work/sikechen.github.io/sikechen.github.io/data/news_2026-06-23.json
+2026-06-23 11:14:52,818 - INFO - VIX数据已保存: /home/runner/work/sikechen.github.io/sikechen.github.io/data/vix_latest.json
+2026-06-23 11:14:52,835 - INFO - [步骤4/4] 生成HTML页面...
+2026-06-23 11:14:52,873 - INFO - ============================================================
+2026-06-23 11:14:52,873 - INFO - 任务完成!
+2026-06-23 11:14:52,874 - INFO -   - 新闻数量: 76 条
+2026-06-23 11:14:52,874 - INFO -   - 新闻来源: 4 个
+2026-06-23 11:14:52,874 - INFO -   - 积极新闻: 13 条
+2026-06-23 11:14:52,874 - INFO -   - 消极新闻: 7 条
+2026-06-23 11:14:52,874 - INFO -   - VIX指数: 19.91
+2026-06-23 11:14:52,874 - INFO -   - 综合预测: 偏多
+2026-06-23 11:14:52,874 - INFO -   - 可用历史: 7 天
+2026-06-23 11:14:52,874 - INFO -   - 输出文件: /home/runner/work/sikechen.github.io/sikechen.github.io/output/index.html
+2026-06-23 11:14:52,874 - INFO -   - 耗时: 26.55秒
+2026-06-23 11:14:52,874 - INFO - ============================================================
