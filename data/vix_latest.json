@@ -1,10 +1,51 @@
 {
-  "source": "CBOE",
-  "current": 16.15,
-  "open": 17.05,
-  "high": 17.21,
-  "low": 15.79,
-  "fetch_time": "2026-07-03 07:19:05",
+  "source": "Yahoo Finance",
+  "current": 15.95,
+  "change": null,
+  "change_pct": null,
+  "history": [
+    {
+      "timestamp": "2026-07-03 10:11",
+      "value": 15.95
+    },
+    {
+      "timestamp": "2026-07-03 10:12",
+      "value": 15.94
+    },
+    {
+      "timestamp": "2026-07-03 10:13",
+      "value": 15.94
+    },
+    {
+      "timestamp": "2026-07-03 10:14",
+      "value": 15.94
+    },
+    {
+      "timestamp": "2026-07-03 10:15",
+      "value": 15.94
+    },
+    {
+      "timestamp": "2026-07-03 10:16",
+      "value": 15.95
+    },
+    {
+      "timestamp": "2026-07-03 10:17",
+      "value": 15.96
+    },
+    {
+      "timestamp": "2026-07-03 10:18",
+      "value": 15.96
+    },
+    {
+      "timestamp": "2026-07-03 10:19",
+      "value": null
+    },
+    {
+      "timestamp": "2026-07-03 10:19",
+      "value": 15.95
+    }
+  ],
+  "fetch_time": "2026-07-03 10:34:07",
   "fear_level": "较低",
   "fear_description": "市场情绪较为乐观",
   "fear_color": "#8BC34A"
