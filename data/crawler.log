@@ -21414,3 +21414,54 @@ TypeError: string indices must be integers, not 'str'
 2026-07-16 17:13:45,453 - INFO -   - 输出文件: /home/runner/work/sikechen.github.io/sikechen.github.io/output/index.html
 2026-07-16 17:13:45,453 - INFO -   - 耗时: 26.43秒
 2026-07-16 17:13:45,453 - INFO - ============================================================
+2026-07-17 02:29:38,809 - INFO - ============================================================
+2026-07-17 02:29:38,809 - INFO - 股市新闻监控任务开始 - 2026-07-17
+2026-07-17 02:29:38,809 - INFO - ============================================================
+2026-07-17 02:29:38,809 - INFO - [步骤1/4] 抓取新闻数据...
+2026-07-17 02:29:38,809 - INFO - 开始抓取新闻...
+2026-07-17 02:29:40,335 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-07-17 02:29:42,516 - ERROR - [新浪财经] API请求失败: 'str' object cannot be interpreted as an integer
+2026-07-17 02:29:43,099 - INFO - 新浪财经: 获取 30 条
+2026-07-17 02:29:44,678 - ERROR - [新浪宏观] 获取失败: 'str' object cannot be interpreted as an integer
+2026-07-17 02:29:44,678 - INFO - 新浪宏观: 获取 0 条
+2026-07-17 02:29:46,630 - INFO - 东方财富: 获取 20 条
+2026-07-17 02:29:48,721 - INFO - 同花顺: 获取 20 条
+2026-07-17 02:29:49,309 - ERROR - [网易财经] 获取失败: HTTPSConnectionPool(host='api.money.126.net', port=443): Max retries exceeded with url: /data/feed/0000001,1399001?callback=a (Caused by NameResolutionError("HTTPSConnection(host='api.money.126.net', port=443): Failed to resolve 'api.money.126.net' ([Errno -2] Name or service not known)"))
+2026-07-17 02:29:50,898 - INFO - 网易财经: 获取 0 条
+2026-07-17 02:30:11,956 - ERROR - [腾讯财经] API获取失败: HTTPSConnectionPool(host='finance.qq.com', port=443): Max retries exceeded with url: /act/NewsCrawlService/getNewsList.htm?apptype=&action=click&page=0&pageSize=20&type=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='finance.qq.com', port=443) at 0x7fbce202ac50>, 'Connection to finance.qq.com timed out. (connect timeout=10)'))
+2026-07-17 02:30:42,155 - ERROR - [腾讯财经] 请求失败 https://finance.qq.com/stock/: HTTPSConnectionPool(host='finance.qq.com', port=443): Max retries exceeded with url: /stock/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='finance.qq.com', port=443) at 0x7fbce202bb50>, 'Connection to finance.qq.com timed out. (connect timeout=15)'))
+2026-07-17 02:30:42,155 - INFO - 腾讯财经: 获取 0 条
+2026-07-17 02:30:45,227 - ERROR - [财联社] API获取失败: Expecting value: line 1 column 1 (char 0)
+2026-07-17 02:30:45,534 - INFO - 财联社: 获取 0 条
+2026-07-17 02:30:47,106 - ERROR - [中证报] 请求失败 https://www.cs.com.cn/zqbd/: 404 Client Error: Not Found for url: https://www.cs.com.cn/zqbd/
+2026-07-17 02:30:47,106 - INFO - 中国证券报: 获取 0 条
+2026-07-17 02:30:50,442 - ERROR - [雪球] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-07-17 02:30:50,442 - INFO - 雪球: 获取 0 条
+2026-07-17 02:30:51,958 - INFO - 华尔街见闻: 获取 20 条
+2026-07-17 02:30:53,671 - ERROR - [金十数据] 获取失败: Expecting value: line 1 column 1 (char 0)
+2026-07-17 02:30:53,671 - INFO - 金十数据: 获取 0 条
+2026-07-17 02:30:54,759 - ERROR - [路透社] 请求失败 https://cn.reuters.com/news/china: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com?edition-redirect=cn
+2026-07-17 02:30:54,759 - INFO - 路透社: 获取 0 条
+2026-07-17 02:30:54,759 - INFO - 去重后共 75 条新闻
+2026-07-17 02:30:54,771 - INFO -   -> 获取新闻 75 条
+2026-07-17 02:30:54,771 - INFO -   -> 来源统计: {'新浪财经': 30, '东方财富': 20, '同花顺': 20, '华尔街见闻': 5}
+2026-07-17 02:30:54,771 - INFO - [步骤2/4] 抓取VIX数据...
+2026-07-17 02:30:54,771 - INFO - 开始抓取VIX数据...
+2026-07-17 02:30:54,870 - INFO -   -> VIX指数: 16.73
+2026-07-17 02:30:54,870 - INFO -   -> 恐慌等级: 较低
+2026-07-17 02:30:54,870 - INFO - [步骤3/4] 保存数据...
+2026-07-17 02:30:54,871 - INFO - 新闻数据已保存: /home/runner/work/sikechen.github.io/sikechen.github.io/data/news_2026-07-17.json
+2026-07-17 02:30:54,872 - INFO - VIX数据已保存: /home/runner/work/sikechen.github.io/sikechen.github.io/data/vix_latest.json
+2026-07-17 02:30:54,896 - INFO - [步骤4/4] 生成HTML页面...
+2026-07-17 02:30:54,936 - INFO - ============================================================
+2026-07-17 02:30:54,936 - INFO - 任务完成!
+2026-07-17 02:30:54,936 - INFO -   - 新闻数量: 75 条
+2026-07-17 02:30:54,936 - INFO -   - 新闻来源: 4 个
+2026-07-17 02:30:54,936 - INFO -   - 积极新闻: 13 条
+2026-07-17 02:30:54,936 - INFO -   - 消极新闻: 12 条
+2026-07-17 02:30:54,936 - INFO -   - VIX指数: 16.73
+2026-07-17 02:30:54,936 - INFO -   - 综合预测: 偏多
+2026-07-17 02:30:54,936 - INFO -   - 可用历史: 7 天
+2026-07-17 02:30:54,936 - INFO -   - 输出文件: /home/runner/work/sikechen.github.io/sikechen.github.io/output/index.html
+2026-07-17 02:30:54,936 - INFO -   - 耗时: 76.13秒
+2026-07-17 02:30:54,936 - INFO - ============================================================
