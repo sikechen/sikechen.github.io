@@ -25994,5 +25994,57 @@
     "fear_level": "较低",
     "fear_description": "市场情绪较为乐观",
     "fear_color": "#8BC34A"
+  },
+  {
+    "source": "Yahoo Finance",
+    "current": 16.35,
+    "change": null,
+    "change_pct": null,
+    "history": [
+      {
+        "timestamp": "2026-08-05 10:09",
+        "value": 16.35
+      },
+      {
+        "timestamp": "2026-08-05 10:10",
+        "value": 16.35
+      },
+      {
+        "timestamp": "2026-08-05 10:11",
+        "value": 16.35
+      },
+      {
+        "timestamp": "2026-08-05 10:12",
+        "value": 16.36
+      },
+      {
+        "timestamp": "2026-08-05 10:13",
+        "value": 16.36
+      },
+      {
+        "timestamp": "2026-08-05 10:14",
+        "value": 16.35
+      },
+      {
+        "timestamp": "2026-08-05 10:15",
+        "value": 16.36
+      },
+      {
+        "timestamp": "2026-08-05 10:16",
+        "value": 16.35
+      },
+      {
+        "timestamp": "2026-08-05 10:17",
+        "value": null
+      },
+      {
+        "timestamp": "2026-08-05 10:17",
+        "value": 16.35
+      }
+    ],
+    "fetch_time": "2026-08-05 10:32:19",
+    "fear_level": "较低",
+    "fear_description": "市场情绪较为乐观",
+    "fear_color": "#8BC34A"
   }
 ]
