@@ -1,0 +1,602 @@
+[
+  {
+    "title": "上市券商半年度业绩一览",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1787213908",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "上半年基金公司净利润调查",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1787204961",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "厄尔尼诺引爆农业板块！种植链掀涨停潮，农牧渔午后猛拉！",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-08-28/doc-inipwaiy0082055.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "【“芯”动的信号】英伟达定调，存储芯片“超级周期”或刚起步",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-08-28/doc-inipvwaa0194553.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "大数据产业博览会开幕，数据要素价值释放提速！",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-08-28/doc-inipvvzv9033867.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "OpenAI智能体入侵系统？网络安全概念爆发，麒麟信安20CM涨停！软件开发ETF华宝（159036）标的指数涨超3%",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-08-28/doc-inipvrtx8968815.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "【早盘三分钟】8月28日华宝基金ETF早知道",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-08-28/doc-inipvrtx8910294.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "华南城将被清盘！第三大股东腾讯23亿投资打水漂",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-08-12/doc-infktfvz8814540.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "民营房企重返土拍市场 谁在加大力度拿地？",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-06-10/doc-inezqwaa3375791.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "二手房成交占比迅速攀升 贝壳将发挥更多价值？",
+    "url": "https://finance.sina.com.cn/stock/gsjd/2025-05-21/doc-inexhwwe0494219.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "万科迎来改革发展转机：去年完成超18万套房子交付，今年一季度公开债已兑付",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-04-02/doc-inertrws5580828.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "中国金茂进入业绩兑现期？持续投资迎来收获 开发业务毛利率大幅提升",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-04-01/doc-inerrnxs6345481.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "舍得酒业：产品创新拓展增量市场 电商、大众酒、年轻化成为前三季度最大经营亮点",
+    "url": "https://finance.sina.com.cn/stock/observe/2025-10-31/doc-infvutkq3271608.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "煌上煌再度进行外延式并购：自身收入连续萎缩产能利用率低至23% 并购能否帮助公司脱困",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-18/doc-infmkyuc3513942.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "卫龙美味营收、净利保持双位数增长 第二增长曲线蔬菜制品收入达到21.09亿元",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-15/doc-infmacic4386628.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "神农集团按下扩张暂停键 反内卷是否意味着行业拐点？",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-12/doc-infksvhi3488630.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "广农糖业募资必要性存疑：产能利用率仅为21.66% 巨额负债压力下困境待解",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-07-28/doc-infhywqz5801770.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "双创指数均跌超1% 化工板块逆势活跃",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1787878387",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "8月28日沪深两市涨停分析：深中华A7连板",
+    "url": "https://finance.sina.com.cn/tob/2026-08-28/doc-inipwait4600557.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "收评：双创指数均跌超1% 化工板块逆势活跃",
+    "url": "https://finance.sina.com.cn/tob/2026-08-28/doc-inipwaiy0098615.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "认证绑卡，领最高30元现金红包！特邀用户专属红包待领取>>",
+    "url": "https://finance.sina.cn/app/khbk.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "净利润大增超4900%，锂矿龙头获险资新进重仓！20股险资持仓环比翻倍（附名单）",
+    "url": "https://finance.sina.com.cn/stock/zqgd/2026-08-28/doc-inipvmmz4783135.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "大盘直击|双创指数均跌超1% 化工板块逆势活跃",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1787878387",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "基金隐形重仓股陆续曝光",
+    "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-08-28/doc-inipuywf9056651.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "8月223家公司获外资机构调研",
+    "url": "https://finance.sina.com.cn/jjxw/2026-08-28/doc-inipuuqq0595164.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "章建平再出手！大举买入两只牛股",
+    "url": "https://finance.sina.com.cn/jjxw/2026-08-28/doc-inipuuqi9053596.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "华西证券合规与治理双承压：期货子公司收警示函",
+    "url": "https://finance.sina.com.cn/stock/quanshang/qsyj/2026-08-28/doc-inipwhrw0015212.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "今日视点：上市券商中期业绩呈现三大看点",
+    "url": "https://finance.sina.com.cn/jjxw/2026-08-28/doc-inipvfek0404397.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "“国民彩电大王”康佳上市34年后拟主动退市，四年亏损超200亿元",
+    "url": "https://finance.sina.com.cn/jjxw/2026-08-28/doc-inipvmmz8953386.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "“彩电第一股”*ST康佳，拟主动退市",
+    "url": "https://finance.sina.com.cn/roll/2026-08-28/doc-inipvmnc5681136.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-08-28 09:34:58"
+  },
+  {
+    "title": "华安证券恒赢20号集合资产管理计划合同条款变更的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-12-26 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "关于国联信托·快车003号集合资金信托计划日收益基准的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-31 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "再升科技:再升科技关于使用部分暂时闲置自有资金进行现金管理的进展公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "动力源:2026年第一次临时股东会决议公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "秦港股份:秦皇岛港股份有限公司董事、高级管理人员离职管理制度",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "秦港股份:秦皇岛港股份有限公司第六届董事会第十一次会议决议公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "秦港股份:秦皇岛港股份有限公司对河北港口集团财务有限公司的风险持续评估报告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "秦港股份:秦皇岛港股份有限公司与河北港口集团财务有限公司开展金融业务的风险处置预案",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "秦港股份:秦皇岛港股份有限公司2026年半年度报告摘要",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "秦港股份:秦皇岛港股份有限公司关于公司高级管理人员辞任及聘任高级管理人员的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司2026年半年度报告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司关于公司2026年半年度募集资金存放与实际使用情况的专项报告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司2026年“提质增效重回报”行动方案半年度实施情况评估报告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司关于召开2026年半年度业绩说明会的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司关于中化集团财务有限责任公司2026年度上半年风险评估报告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司第九届董事会第二十三次会议决议公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司2026年半年度报告摘要",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司关于2026年第二季度主要经营数据的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:风神轮胎股份有限公司关于2026年上半年计提资产减值准备的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份:中化集团财务有限责任公司2026年上半年风险评估报告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-08-29 00:00:00",
+    "fetch_time": "2026-08-28 09:35:03"
+  },
+  {
+    "title": "风神股份：2026年上半年净利润1.06亿元，同比增长3.30%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909645",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "天铁科技：2026年上半年净利润3222.96万元，同比扭亏为盈",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909625",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "创业板算力ETF、创业板金融科技ETF今日获批",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909613",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "秦港股份：2026年上半年净利润10.16亿元，同比增长2.85%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909578",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "琏升科技：2026年上半年净利润亏损4404.94万元，2025年同期亏损5016.19万元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909568",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "晋拓股份：2026年上半年净利润1829.92万元，同比下降44.19%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909518",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "阳谷华泰：2026年上半年净利润5969.86万元，同比下降53.03%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909497",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "泰坦科技：2026年上半年净利润亏损4268.68万元，同比由盈转亏",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909451",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "易思维：2026年上半年亏损3709.82万元，2025年同期亏损509.91万元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909391",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "泰晶科技：2026年上半年净利润5068.25万元，同比增长129.93%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909361",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "云路股份：2026年上半年净利润1.26亿元，同比下降25.82%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909317",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "航天智造：2026年上半年净利润2.43亿元，同比下降37.95%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909310",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "源杰科技：2026年上半年净利润6.07亿元，同比增长1,212.20%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909294",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "老白干酒：2026年上半年净利润2.62亿元，同比下降18.47%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909245",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "港元稳定币HKDAP授权分销商增至五家",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909225",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "航天动力：2026年上半年净利润亏损5689.2万元，2025年同期亏损7312.43万元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909186",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "航天信息：2026年上半年亏损3.77亿元，2025年同期亏损3.02亿元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909123",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "上海物贸：2026年上半年净利润1042.54万元，同比下降29.81%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909082",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "南京商旅：2026年上半年净利润643.39万元，同比下降18.94%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787909057",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "天微电子：2026年上半年净利润163.25万元，同比下降94.12%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1787908976",
+    "fetch_time": "2026-08-28 09:35:04"
+  },
+  {
+    "title": "三部门发布关于完善商品住房销售制度的通知：加强预售资金监管，推行“交房即交证”",
+    "url": "https://wallstreetcn.com/articles/3780556",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-08-28 09:25",
+    "fetch_time": "2026-08-28 09:35:18"
+  },
+  {
+    "title": "息差企稳与成本改善支撑盈利，农行上半年大口径融资增量超3万亿元",
+    "url": "https://wallstreetcn.com/articles/3780557",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-08-28 09:21",
+    "fetch_time": "2026-08-28 09:35:18"
+  },
+  {
+    "title": "13.7万亿保障如何落到科技产线",
+    "url": "https://wallstreetcn.com/articles/3780555",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-08-28 09:03",
+    "fetch_time": "2026-08-28 09:35:18"
+  },
+  {
+    "title": "美团Q2营收同比增长14.4%，调整后净利润25.2亿元大幅超预期，核心业务环比扭亏为盈 | 财报见闻",
+    "url": "https://wallstreetcn.com/articles/3780554",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-08-28 09:02",
+    "fetch_time": "2026-08-28 09:35:18"
+  },
+  {
+    "title": "创业板收跌1%，半导体产业链低迷，农业涨、医药跌，恒科指午后转跌，芯片股下挫",
+    "url": "https://wallstreetcn.com/articles/3780523",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-08-28 08:44",
+    "fetch_time": "2026-08-28 09:35:18"
+  }
+]
