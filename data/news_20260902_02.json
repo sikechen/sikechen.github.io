@@ -1,0 +1,594 @@
+[
+  {
+    "title": "星宇股份就劝退应届生致歉",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1787793289",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "机构看好三大景气配置方向",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1787878387",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "【早盘三分钟】9月2日华宝基金ETF早知道",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-02/doc-iniqkvch3106000.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "ETF持有人偏好有别：个人“爱”行业 机构“喜”宽基",
+    "url": "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqkqvh1344282.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "农业股迎来久违大涨 粮食ETF走出“霸榜”行情",
+    "url": "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqkefk4721741.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "个人持有ETF比例半年跃升至43%",
+    "url": "https://finance.sina.com.cn/roll/2026-09-02/doc-iniqkefq3343586.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "ETF日报：政策层面，粮食安全与种业振兴政策持续加码，为板块提供了方向性指引，可关注粮食ETF",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-01/doc-iniqipis4839987.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "华南城将被清盘！第三大股东腾讯23亿投资打水漂",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-08-12/doc-infktfvz8814540.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "民营房企重返土拍市场 谁在加大力度拿地？",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-06-10/doc-inezqwaa3375791.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "二手房成交占比迅速攀升 贝壳将发挥更多价值？",
+    "url": "https://finance.sina.com.cn/stock/gsjd/2025-05-21/doc-inexhwwe0494219.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "万科迎来改革发展转机：去年完成超18万套房子交付，今年一季度公开债已兑付",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-04-02/doc-inertrws5580828.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "中国金茂进入业绩兑现期？持续投资迎来收获 开发业务毛利率大幅提升",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-04-01/doc-inerrnxs6345481.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "舍得酒业：产品创新拓展增量市场 电商、大众酒、年轻化成为前三季度最大经营亮点",
+    "url": "https://finance.sina.com.cn/stock/observe/2025-10-31/doc-infvutkq3271608.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "煌上煌再度进行外延式并购：自身收入连续萎缩产能利用率低至23% 并购能否帮助公司脱困",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-18/doc-infmkyuc3513942.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "卫龙美味营收、净利保持双位数增长 第二增长曲线蔬菜制品收入达到21.09亿元",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-15/doc-infmacic4386628.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "神农集团按下扩张暂停键 反内卷是否意味着行业拐点？",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-12/doc-infksvhi3488630.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "广农糖业募资必要性存疑：产能利用率仅为21.66% 巨额负债压力下困境待解",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-07-28/doc-infhywqz5801770.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "外资多路径增配中国资产",
+    "url": "https://finance.sina.com.cn/roll/2026-09-02/doc-iniqixxs8266823.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "社保基金去年投资收益超3900亿元 收益率13.22%创近五年新高",
+    "url": "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqkefk4721754.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "社零总额5年冲刺10万亿元增量 哪些消费赛道将率先受益？",
+    "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-02/doc-iniqkefk4709425.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "房车露营等需求旺盛 汽车后市场潜力将获充分挖掘",
+    "url": "https://finance.sina.com.cn/roll/2026-09-02/doc-iniqkefk4709407.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "中一签或赚超28万！国产GPU四小龙之一，今日申购",
+    "url": "https://finance.sina.com.cn/stock/newstock/zxdt/2026-09-02/doc-iniqkvch3052647.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "中信建投：均衡配置，重视机构低配品种",
+    "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-02/doc-iniqkvce1273089.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "大盘直击|快讯：深成指、创指双双跌逾2% 军工板块活跃",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1788311501",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "光伏装机首超煤电，但真正的考验才刚刚开始",
+    "url": "https://finance.sina.com.cn/roll/2026-09-02/doc-iniqkefq8170466.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "社保基金2025年投资收益成绩单出炉",
+    "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-02/doc-iniqkvch3048322.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "新规后首批中报出炉 基民盈利“账本”首次完整呈现",
+    "url": "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqkkpn3255758.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "上半年券商经纪业务座次揭晓！国泰海通夺魁，这家券商新开户超200万户",
+    "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-02/doc-iniqkvce1258887.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "从“通道”到“管家” 券商财富管理迈向“买方时代”",
+    "url": "https://finance.sina.com.cn/roll/2026-09-02/doc-iniqkefk4709423.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "上市第11个交易日，宇树科技股价腰斩",
+    "url": "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqkvch3116364.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-09-02 02:55:05"
+  },
+  {
+    "title": "华安证券恒赢20号集合资产管理计划合同条款变更的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-12-26 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "财达证券股份有限公司关于财达尊享6号集合资产管理计划第十一次开放公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-04 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "汇添富基金管理股份有限公司及汇添富基金销售(上海)有限公司关于零售直销业务迁移安排的联合提示性公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "244122:中粮集团有限公司关于董事、总经理发生变动的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-季季添利3号集合资金信托计划-20260831",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-日日盈宝27号集合资金信托计划-20260901",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-鹏睿策略5号集合资金信托计划-20260901",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-中盈稳享15号集合资金信托计划-20260901",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "标准证券产品净值披露-建信信托-凤鸣尊享日日盈89号固收类集合资金信托计划-20260901",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "关于第一创业基础设施2号集合资产管理计划合同变更生效的公告_20260902101932594_9887",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "237772:关于2026年福建省政府一般债券(二期)上市交易的通知",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "中加瑞鑫纯债债券型证券投资基金招募说明书(2026年09月更新)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "关于调整申万菱信天天增货币市场基金管理费适用费率的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "华宝科技先锋混合型证券投资基金(C类份额)基金产品资料概要(更新)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "兴全兴裕混合型证券投资基金(兴全兴裕混合C份额)基金产品资料概要更新",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "关于恢复财通资管现金聚财货币市场基金管理费适用费率的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "南方安泰混合型证券投资基金A类基金份额限制大额申购、定投和转换转入业务的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "国泰惠享三个月定期开放债券型发起式证券投资基金分红公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "截至二零二六年八月三十一日止之股份发行人的证券变动月报表",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "南方富时中国国企开放共赢交易型开放式指数证券投资基金发起式联接基金(A类份额)基金产品资料概要(20260902更新)",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-09-02 00:00:00",
+    "fetch_time": "2026-09-02 02:55:10"
+  },
+  {
+    "title": "欧盟称将加大对乌克兰的支持力度",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788317657",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "金健米业、芒果超媒等成立新公司 含食用农产品批发业务",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788317632",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "美欧宇航员太空行走为国际空间站安装设备",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788317384",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "房地产板块探底回升 信达地产涨停",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788317285",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "今年前7个月医保共拨付即时结算资金9457.31亿元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788317225",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "鼎犀智创完成Pre-A轮融资",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788317106",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "沪深京三市成交额超1万亿元，较上日此时缩量1115亿元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316818",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316725",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "9月预计有2至3个台风登陆或明显影响我国",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316535",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "未来10天全国多地有高温天气",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316529",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "化妆品板块短线拉升 维琪科技涨超10%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316450",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "中央网信办深入开展“清朗·整治AI应用乱象”专项行动第二阶段工作",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316351",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "华为MatePad Air升级OLED屏，9月7日发布",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316226",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "培育钻石板块震荡走高 惠丰钻石涨超9%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316148",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "国台办：欢迎台胞台企来大陆创新创业 参与高质量发展",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788316141",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "国家医保局：新版方案对创新技术的支持更加明确",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788315929",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "北证50指数涨幅扩大至4%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788315894",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "利息减少，一些银行定期存款却逆势大增",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788315882",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "美军称袭击两艘伊朗油轮",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788315801",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "移动支付板块部分活跃 路桥信息涨超10%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1788315594",
+    "fetch_time": "2026-09-02 02:55:12"
+  },
+  {
+    "title": "软件股MongoDB Q2营收狂增30%、利润超预期19%，盘后股价却遭抛售",
+    "url": "https://wallstreetcn.com/articles/3780867",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-09-02 01:54",
+    "fetch_time": "2026-09-02 02:55:24"
+  },
+  {
+    "title": "VLA不够用了？WAM正在重构具身智能“最强大脑”与硬件价值链",
+    "url": "https://wallstreetcn.com/premium/articles/3779669?layout=wscn-layout",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-09-02 01:54",
+    "fetch_time": "2026-09-02 02:55:24"
+  },
+  {
+    "title": "创业板早盘跌2%，玻纤、油气股活跃，有色金属下挫，恒科指跌超1%，科网股普遍下跌",
+    "url": "https://wallstreetcn.com/articles/3780874",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-09-02 01:53",
+    "fetch_time": "2026-09-02 02:55:24"
+  },
+  {
+    "title": "戴尔电话会：“缺的就是DRAM、DRAM、DRAM！” ，AI积压订单逼近千亿，全年指引大幅上调",
+    "url": "https://wallstreetcn.com/articles/3780870",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-09-02 01:51",
+    "fetch_time": "2026-09-02 02:55:24"
+  }
+]
