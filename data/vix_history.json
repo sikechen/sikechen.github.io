@@ -1,14 +1,6 @@
 [
   {
     "source": "CBOE",
-    "current": 20.5,
-    "fetch_time": "2026-04-10 18:00:00",
-    "fear_level": "中等",
-    "fear_description": "市场情绪中性",
-    "fear_color": "#FFC107"
-  },
-  {
-    "source": "CBOE",
     "current": 19.6,
     "fetch_time": "2026-04-11 18:00:00",
     "fear_level": "较低",
@@ -35865,6 +35857,58 @@
       }
     ],
     "fetch_time": "2026-09-20 15:28:08",
+    "fear_level": "极低",
+    "fear_description": "市场情绪极度乐观",
+    "fear_color": "#4CAF50"
+  },
+  {
+    "source": "Yahoo Finance",
+    "current": 14.81,
+    "change": null,
+    "change_pct": null,
+    "history": [
+      {
+        "timestamp": "2026-09-18 20:06",
+        "value": 14.82
+      },
+      {
+        "timestamp": "2026-09-18 20:07",
+        "value": 14.84
+      },
+      {
+        "timestamp": "2026-09-18 20:08",
+        "value": 14.86
+      },
+      {
+        "timestamp": "2026-09-18 20:09",
+        "value": 14.87
+      },
+      {
+        "timestamp": "2026-09-18 20:10",
+        "value": 14.83
+      },
+      {
+        "timestamp": "2026-09-18 20:11",
+        "value": 14.82
+      },
+      {
+        "timestamp": "2026-09-18 20:12",
+        "value": 14.83
+      },
+      {
+        "timestamp": "2026-09-18 20:13",
+        "value": 14.82
+      },
+      {
+        "timestamp": "2026-09-18 20:14",
+        "value": 14.81
+      },
+      {
+        "timestamp": "2026-09-18 20:15",
+        "value": 14.81
+      }
+    ],
+    "fetch_time": "2026-09-20 18:29:07",
     "fear_level": "极低",
     "fear_description": "市场情绪极度乐观",
     "fear_color": "#4CAF50"
