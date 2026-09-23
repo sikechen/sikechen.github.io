@@ -1,51 +1,51 @@
 {
   "source": "Yahoo Finance",
-  "current": 14.21,
+  "current": 14.14,
   "change": null,
   "change_pct": null,
   "history": [
     {
-      "timestamp": "2026-09-22 20:06",
-      "value": 14.25
+      "timestamp": "2026-09-23 08:42",
+      "value": 14.14
     },
     {
-      "timestamp": "2026-09-22 20:07",
-      "value": 14.24
+      "timestamp": "2026-09-23 08:43",
+      "value": 14.13
     },
     {
-      "timestamp": "2026-09-22 20:08",
-      "value": 14.25
+      "timestamp": "2026-09-23 08:44",
+      "value": 14.14
     },
     {
-      "timestamp": "2026-09-22 20:09",
-      "value": 14.25
+      "timestamp": "2026-09-23 08:45",
+      "value": 14.14
     },
     {
-      "timestamp": "2026-09-22 20:10",
-      "value": 14.25
+      "timestamp": "2026-09-23 08:46",
+      "value": 14.14
     },
     {
-      "timestamp": "2026-09-22 20:11",
-      "value": 14.22
+      "timestamp": "2026-09-23 08:47",
+      "value": 14.15
     },
     {
-      "timestamp": "2026-09-22 20:12",
-      "value": 14.2
+      "timestamp": "2026-09-23 08:48",
+      "value": 14.15
     },
     {
-      "timestamp": "2026-09-22 20:13",
-      "value": 14.21
+      "timestamp": "2026-09-23 08:49",
+      "value": 14.14
     },
     {
-      "timestamp": "2026-09-22 20:14",
-      "value": 14.21
+      "timestamp": "2026-09-23 08:50",
+      "value": null
     },
     {
-      "timestamp": "2026-09-22 20:15",
-      "value": 14.21
+      "timestamp": "2026-09-23 08:50",
+      "value": 14.14
     }
   ],
-  "fetch_time": "2026-09-23 03:23:07",
+  "fetch_time": "2026-09-23 09:05:18",
   "fear_level": "极低",
   "fear_description": "市场情绪极度乐观",
   "fear_color": "#4CAF50"
