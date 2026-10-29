@@ -1,0 +1,602 @@
+[
+  {
+    "title": "从管线故事到业绩验证，创新药三季报行情仍可期？港股通创新药逆市活跃，520880标的指数成功收红",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-29/doc-iniwwyas2775080.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "银行再秀肌肉，青岛银行罕见涨超8%，四大行市值首创10万亿！银行ETF华宝（512800）标的指数再涨2%",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-29/doc-iniwwyaq5998080.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "A股缩量回调！银行再秀肌肉，银行ETF华宝（512800）标的指数收涨2%！防御风格走强，电力、白酒逆市飘红",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-29/doc-iniwwyas2773653.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "白酒龙头绩后大涨！吃喝板块午后走强，食品饮料ETF华宝（515710）标的指数逆市涨近1%！",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-29/doc-iniwwyat8766919.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "大跌原因或已找到！天孚通信、佰维存储“被苛责”？双创50ETF华宝（588330）延续较高资金关注度！",
+    "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-29/doc-iniwwyat8762348.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "华南城将被清盘！第三大股东腾讯23亿投资打水漂",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-08-12/doc-infktfvz8814540.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "民营房企重返土拍市场 谁在加大力度拿地？",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-06-10/doc-inezqwaa3375791.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "二手房成交占比迅速攀升 贝壳将发挥更多价值？",
+    "url": "https://finance.sina.com.cn/stock/gsjd/2025-05-21/doc-inexhwwe0494219.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "万科迎来改革发展转机：去年完成超18万套房子交付，今年一季度公开债已兑付",
+    "url": "http://finance.sina.com.cn/research/dichan007/yw/2025-04-02/doc-inertrws5580828.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "中国金茂进入业绩兑现期？持续投资迎来收获 开发业务毛利率大幅提升",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-04-01/doc-inerrnxs6345481.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "舍得酒业：产品创新拓展增量市场 电商、大众酒、年轻化成为前三季度最大经营亮点",
+    "url": "https://finance.sina.com.cn/stock/observe/2025-10-31/doc-infvutkq3271608.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "口子窖二季度业绩失守：销售费用率不断下降 实际控制人减持",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-22/doc-infmvzeh5609502.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "煌上煌再度进行外延式并购：自身收入连续萎缩产能利用率低至23% 并购能否帮助公司脱困",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-18/doc-infmkyuc3513942.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "卫龙美味营收、净利保持双位数增长 第二增长曲线蔬菜制品收入达到21.09亿元",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-15/doc-infmacic4386628.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "神农集团按下扩张暂停键 反内卷是否意味着行业拐点？",
+    "url": "http://finance.sina.com.cn/research/baijiu007/yw/2025-08-12/doc-infksvhi3488630.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "双创指数均跌超4% 算力硬件股集体大跌",
+    "url": "https://finance.sina.com.cn/zt_d/subject-1793235055/",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "10月29日增减持汇总：华勤技术等4股拟增持 当日暂无A股拟减持（表）",
+    "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwxekq2763355.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "牛散章建平5个亿新进这只7倍大牛股！",
+    "url": "https://finance.sina.com.cn/stock/roll/2026-10-29/doc-iniwwtux5307446.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "景林、高毅、睿郡、重阳……百亿级私募持仓曝光",
+    "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-29/doc-iniwxekr8689736.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "A股借调整降杠杆 两融资金结构性换仓",
+    "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwuzmr9378101.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "美股三连阳，芯片股爆发，SK海力士大涨13%，谷歌盘后跳水9%",
+    "url": "https://finance.sina.com.cn/wm/2026-10-29/doc-iniwvwri5411573.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "首创证券第三季度净利润降逾五成，拟每10股派1元",
+    "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwxekr8754094.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "两大券商合并重组，审核通过",
+    "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwxekn5957091.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "两大龙头出手！华虹宏力、中微公司拟回购，合计上限达10亿元",
+    "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwwyaq6003651.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "超300家沪市公司同日“报喜”，增持回购频现新军",
+    "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwaxa2881585.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "港股IPO异常基石投资透视：解禁亏多盈少 小盘股波动剧烈 头部保荐人与涉案项目存在交叉 拷问投行看门人责任",
+    "url": "https://finance.sina.com.cn/stock/observe/2026-10-29/doc-iniwwtux5257836.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "港股收评：恒指跌0.59%失守23000点 科指跌2.84% 科网股低迷 光通信板块下挫",
+    "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-29/doc-iniwwpnu6102336.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "2026年公募基金三季报收官 主动权益基金高仓位守主线稳回报",
+    "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwvsih2977391.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "外资公募三季度调仓路径出炉 均衡布局 坚守AI中长期机会",
+    "url": "https://finance.sina.com.cn/money/fund/jjcc/2026-10-29/doc-iniwvftn3171636.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "业绩承压表象背后 新诺威的深层次风险已不容忽视",
+    "url": "https://finance.sina.com.cn/stock/observe/2025-03-27/doc-inerapwk5145632.shtml",
+    "source": "新浪财经",
+    "category": "stock",
+    "datetime": "",
+    "fetch_time": "2026-10-29 20:52:22"
+  },
+  {
+    "title": "华安证券恒赢20号集合资产管理计划合同条款变更的公告",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-12-26 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "汇丰晋信系统维护通知",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-11-01 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "关于中邮证券鸿利来17号集合资产管理计划集合资产管理合同变更的公告202611",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "关于中邮证券鸿瑞尊享2号集合资产管理计划集合资产管理合同变更的公告202611",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈112号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈113号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈108号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "关于中邮证券鸿瑞17号集合资产管理计划集合资产管理合同变更的公告202611",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈107号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "关于中邮证券鸿瑞18号集合资产管理计划集合资产管理合同变更的公告202611",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "关于中邮证券鼎睿鸿福指数挂钩5号集合资产管理计划集合资产管理合同变更的公告202610",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈111号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "关于中邮证券鸿瑞尊享3号集合资产管理计划集合资产管理合同变更的公告202611",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈101号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈106号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈105号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈103号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈104号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈102号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "外贸信托-东兴安盈100号集合资金信托计划标的产品资管合同变更的公告20261027",
+    "url": "https://data.eastmoney.com/news/.html",
+    "source": "东方财富",
+    "category": "stock",
+    "datetime": "2026-10-30 00:00:00",
+    "fetch_time": "2026-10-29 20:52:27"
+  },
+  {
+    "title": "闪迪美股盘后转涨，涨幅达到3%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793306710",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "美股PC股盘后走低，戴尔跌4.6%，惠普跌6.8%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793306210",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "亚马逊盘后跌幅收窄至不足5%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793306136",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "泽连斯基：乌军袭击俄战机和导弹发射装置",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793305883",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "百时美施贵宝不会推进PRX019的临床开发",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793305567",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "星巴克第四财季同店销售超过预估",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304955",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "ROBLOX第四季度预订量为18.9亿至20亿美元，预计为19.9亿美元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304550",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "亚马逊盘后大跌12%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304543",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "Coinbase第三季度总收入为12.2亿美元，市场预计为12.2亿美元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304520",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "闪迪预计第二财季营收为122亿至126亿美元，市场预估为121亿美元",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304512",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "英特尔盘后大跌20%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304502",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "亚马逊第三季度AWS净销售额459.8亿美元 高于预期",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304476",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "美股纳斯达克100指数期货跌超2%",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304454",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "美股收评：美股三大指数集体收跌",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793304081",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "美国能源部：在战略石油储备（SPR）提供的1700万桶原油中，各公司将借用1675万桶",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793303946",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "布伦特原油在盘后交易中转涨",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793303718",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "美军中央司令部司令向特朗普汇报对伊朗军事选项",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793303562",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "资产管理公司Ares 首席执行官：因业务复杂度，避开 AI 芯片融资",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793303045",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "SpaceX 最大收入来源为与 Anthropic 签订的有限期协议",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793301661",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "分析师：内塔尼亚胡阵营即使获反对派倒戈 仍差1席过半",
+    "url": "",
+    "source": "同花顺",
+    "category": "stock",
+    "datetime": "1793301305",
+    "fetch_time": "2026-10-29 20:52:30"
+  },
+  {
+    "title": "大空头Eisman质疑Anthropic\"非常刻意\"隐瞒最新财报，AI安全叙事遭遇信任危机",
+    "url": "https://wallstreetcn.com/articles/3784801",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-10-29 20:32",
+    "fetch_time": "2026-10-29 20:52:45"
+  },
+  {
+    "title": "10月30日会员早报：Alphabet遭遇上市以来最惨一日 AI投资推动美国三季度经济增速升至3.4%",
+    "url": "https://wallstreetcn.com/premium/articles/3784800?layout=wscn-layout",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-10-29 20:23",
+    "fetch_time": "2026-10-29 20:52:45"
+  },
+  {
+    "title": "英特暴跌！Q4指引远逊预期，内存涨价冲击PC需求、数据中心芯片供应受限｜财报见闻",
+    "url": "https://wallstreetcn.com/articles/3784798",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-10-29 20:15",
+    "fetch_time": "2026-10-29 20:52:45"
+  },
+  {
+    "title": "力拓ADR一度跌超4%：蒙古奥尤陶勒盖铜矿发生岩崩事故，地下运营暂停",
+    "url": "https://wallstreetcn.com/articles/3784795",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-10-29 20:09",
+    "fetch_time": "2026-10-29 20:52:45"
+  },
+  {
+    "title": "美国债务占GDP破100%：经济高增仍追不上举债，净利息成预算\"最不可撼动\"支出",
+    "url": "https://wallstreetcn.com/articles/3784796",
+    "source": "华尔街见闻",
+    "category": "macro",
+    "datetime": "2026-10-29 20:09",
+    "fetch_time": "2026-10-29 20:52:45"
+  }
+]
