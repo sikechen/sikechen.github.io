@@ -1,58 +1,6 @@
 [
   {
     "source": "Yahoo Finance",
-    "current": 17.58,
-    "change": null,
-    "change_pct": null,
-    "history": [
-      {
-        "timestamp": "2026-05-20 17:52",
-        "value": 17.56
-      },
-      {
-        "timestamp": "2026-05-20 17:53",
-        "value": 17.55
-      },
-      {
-        "timestamp": "2026-05-20 17:54",
-        "value": 17.55
-      },
-      {
-        "timestamp": "2026-05-20 17:55",
-        "value": 17.56
-      },
-      {
-        "timestamp": "2026-05-20 17:56",
-        "value": 17.55
-      },
-      {
-        "timestamp": "2026-05-20 17:57",
-        "value": 17.56
-      },
-      {
-        "timestamp": "2026-05-20 17:58",
-        "value": 17.56
-      },
-      {
-        "timestamp": "2026-05-20 17:59",
-        "value": 17.55
-      },
-      {
-        "timestamp": "2026-05-20 18:00",
-        "value": null
-      },
-      {
-        "timestamp": "2026-05-20 18:00",
-        "value": 17.58
-      }
-    ],
-    "fetch_time": "2026-05-20 18:15:38",
-    "fear_level": "较低",
-    "fear_description": "市场情绪较为乐观",
-    "fear_color": "#8BC34A"
-  },
-  {
-    "source": "Yahoo Finance",
     "current": 17.44,
     "change": null,
     "change_pct": null,
@@ -36044,5 +35992,57 @@
     "fear_level": "中性",
     "fear_description": "市场情绪平稳",
     "fear_color": "#FFC107"
+  },
+  {
+    "source": "Yahoo Finance",
+    "current": 28.44,
+    "change": null,
+    "change_pct": null,
+    "history": [
+      {
+        "timestamp": "2026-11-19 21:06",
+        "value": 28.97
+      },
+      {
+        "timestamp": "2026-11-19 21:07",
+        "value": 28.95
+      },
+      {
+        "timestamp": "2026-11-19 21:08",
+        "value": 28.94
+      },
+      {
+        "timestamp": "2026-11-19 21:09",
+        "value": 28.89
+      },
+      {
+        "timestamp": "2026-11-19 21:10",
+        "value": 28.75
+      },
+      {
+        "timestamp": "2026-11-19 21:11",
+        "value": 28.65
+      },
+      {
+        "timestamp": "2026-11-19 21:12",
+        "value": 28.58
+      },
+      {
+        "timestamp": "2026-11-19 21:13",
+        "value": 28.57
+      },
+      {
+        "timestamp": "2026-11-19 21:14",
+        "value": 28.47
+      },
+      {
+        "timestamp": "2026-11-19 21:15",
+        "value": 28.44
+      }
+    ],
+    "fetch_time": "2026-11-20 05:45:27",
+    "fear_level": "较高",
+    "fear_description": "市场存在一定担忧",
+    "fear_color": "#FF9800"
   }
 ]
